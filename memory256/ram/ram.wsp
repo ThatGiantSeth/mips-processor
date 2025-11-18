@@ -1,0 +1,15 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+registers=1
+Built-in symbols=0
+decoder=0
+ram=0
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\ram\ram.adf|]
+Path=
+
+[Gui config]
+RunFor=100 ns
+
