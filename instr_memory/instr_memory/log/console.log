@@ -1,7 +1,33 @@
-# Design: Design instr_memory already active.
-# DESIGN: Default Design Language: VHDL
-# DESIGN: Default BDE Language: VHDL
-# DESIGN: C-Synthesis: Not Defined
-# DESIGN: HDL Synthesis: Not Defined
-# DESIGN: Physical Synthesis: Not Defined
-# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Error: COMP96_0268: instr_mem.vhd : (9, 2): Missing index range constraint.
+# Error: COMP96_0018: instr_mem.vhd : (10, 1): Identifier expected.
+# Error: COMP96_0015: instr_mem.vhd : (10, 1): ')' expected.
+# Error: COMP96_0015: instr_mem.vhd : (10, 1): ';' expected.
+# Error: COMP96_0019: instr_mem.vhd : (10, 5): Keyword 'end' expected.
+# Error: COMP96_0056: instr_mem.vhd : (12, 1): Cannot find referenced entity declaration "instr_mem".
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -reorder -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Top-level unit(s) detected:
+# Entity => instr_mem
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

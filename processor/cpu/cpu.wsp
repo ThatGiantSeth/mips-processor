@@ -5,3 +5,13 @@ decoder=0
 ram=0
 instr_memory=0
 cpu=0
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\cpu\cpu.adf|]
+Path=
+
+[Gui config]
+RunFor=100 ns
+

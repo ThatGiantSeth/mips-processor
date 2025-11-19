@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/memory256/ram/src/ram256.vhd" 
+MESSAGE "Compile Entity "ram256"" 
+MESSAGE "Compile Architecture "behavioral" of Entity "ram256"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]" 

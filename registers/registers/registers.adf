@@ -23,6 +23,10 @@ UCF=
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=register_file|behavioral|0 
 ShowHide=ShowTopLevel
 Selected=
+[Files]
+/register_file.vhd=-1
+[Files.Data]
+.\src\register_file.vhd=VHDL Source Code

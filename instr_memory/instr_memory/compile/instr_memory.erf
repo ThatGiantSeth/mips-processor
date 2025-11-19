@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd" 
+MESSAGE "Compile Entity "instr_mem"" 
+MESSAGE "Compile Architecture "behavioral" of Entity "instr_mem"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => instr_mem" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

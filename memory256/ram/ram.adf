@@ -26,3 +26,7 @@ WindowVisible=0
 HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
+[Files]
+/ram256.vhd=-1
+[Files.Data]
+.\src\ram256.vhd=VHDL Source Code

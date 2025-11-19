@@ -1,1 +1,3 @@
-0
+1
+~E 1 "../src/instr_mem.vhd" 5 instr_mem
+~A 1 "../src/instr_mem.vhd" 12 behavioral

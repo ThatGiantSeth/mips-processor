@@ -23,6 +23,10 @@ UCF=
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=instr_mem|behavioral|0 
 ShowHide=ShowTopLevel
 Selected=
+[Files]
+/instr_mem.vhd=-1
+[Files.Data]
+.\src\instr_mem.vhd=VHDL Source Code

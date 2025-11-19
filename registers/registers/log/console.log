@@ -1,7 +1,107 @@
-# Design: Design registers already active.
-# DESIGN: Default Design Language: VHDL
-# DESIGN: Default BDE Language: VHDL
-# DESIGN: C-Synthesis: Not Defined
-# DESIGN: HDL Synthesis: Not Defined
-# DESIGN: Physical Synthesis: Not Defined
-# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work registers -2002  $dsn/src/register_file.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/registers/registers/src/register_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "behavioral" of Entity "register_file"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/registers/registers/src/register_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "behavioral" of Entity "register_file"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/registers/registers/src/register_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "behavioral" of Entity "register_file"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/registers/registers/src/register_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "behavioral" of Entity "register_file"
+# Error: COMP96_0015: register_file.vhd : (13, 28): ')' expected.
+# Error: COMP96_0015: register_file.vhd : (13, 28): ';' expected.
+# Error: COMP96_0019: register_file.vhd : (13, 29): Keyword 'end' expected.
+# Error: COMP96_0111: register_file.vhd : (13, 29): Labels do not match.
+# Error: COMP96_0015: register_file.vhd : (13, 35): ';' expected.
+# Error: COMP96_0016: register_file.vhd : (13, 36): Design unit declaration expected.
+# Error: COMP96_0056: register_file.vhd : (17, 1): Cannot find referenced entity declaration "register_file".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -reorder -O3 -e 100 -work registers -2002  $dsn/src/register_file.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/registers/registers/src/register_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "behavioral" of Entity "register_file"
+# Top-level unit(s) detected:
+# Entity => register_file
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work registers -2002  $dsn/src/register_file.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/registers/registers/src/register_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "behavioral" of Entity "register_file"
+# Error: COMP96_0078: register_file.vhd : (25, 15): Unknown identifier "to_integer".
+# Error: COMP96_0078: register_file.vhd : (25, 26): Unknown identifier "unsigned".
+# Error: COMP96_0133: register_file.vhd : (25, 26): Cannot find object declaration.
+# Error: COMP96_0133: register_file.vhd : (25, 15): Cannot find object declaration.
+# Error: COMP96_0289: register_file.vhd : (25, 15): Prefix of index must be an array.
+# Error: COMP96_0138: register_file.vhd : (25, 15): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0078: register_file.vhd : (25, 52): Unknown identifier "data_in".
+# Error: COMP96_0133: register_file.vhd : (25, 52): Cannot find object declaration.
+# Error: COMP96_0077: register_file.vhd : (25, 52): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: register_file.vhd : (27, 5): Unknown identifier "data_out1".
+# Error: COMP96_0133: register_file.vhd : (27, 5): Cannot find object declaration.
+# Error: COMP96_0078: register_file.vhd : (27, 18): Unknown identifier "register_array".
+# Error: COMP96_0078: register_file.vhd : (27, 33): Unknown identifier "to_integer".
+# Error: COMP96_0078: register_file.vhd : (27, 44): Unknown identifier "unsigned".
+# Error: COMP96_0133: register_file.vhd : (27, 44): Cannot find object declaration.
+# Error: COMP96_0133: register_file.vhd : (27, 33): Cannot find object declaration.
+# Error: COMP96_0078: register_file.vhd : (28, 5): Unknown identifier "data_out2".
+# Error: COMP96_0133: register_file.vhd : (28, 5): Cannot find object declaration.
+# Error: COMP96_0078: register_file.vhd : (28, 18): Unknown identifier "register_array".
+# Error: COMP96_0078: register_file.vhd : (28, 33): Unknown identifier "to_integer".
+# Error: COMP96_0078: register_file.vhd : (28, 44): Unknown identifier "unsigned".
+# Error: COMP96_0133: register_file.vhd : (28, 44): Cannot find object declaration.
+# Error: COMP96_0133: register_file.vhd : (28, 33): Cannot find object declaration.
+# Compile failure 23 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `registers.register_file' is not up-to-date. Please recompile file `C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\registers\registers/src/register_file.vhd'.
+acom -O3 -e 100 -work registers -2002  $dsn/src/register_file.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/registers/registers/src/register_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "behavioral" of Entity "register_file"
+# Error: COMP96_0078: register_file.vhd : (26, 52): Unknown identifier "data_in".
+# Error: COMP96_0133: register_file.vhd : (26, 52): Cannot find object declaration.
+# Error: COMP96_0077: register_file.vhd : (26, 52): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: register_file.vhd : (28, 5): Unknown identifier "data_out1".
+# Error: COMP96_0133: register_file.vhd : (28, 5): Cannot find object declaration.
+# Error: COMP96_0078: register_file.vhd : (28, 18): Unknown identifier "register_array".
+# Error: COMP96_0078: register_file.vhd : (29, 5): Unknown identifier "data_out2".
+# Error: COMP96_0133: register_file.vhd : (29, 5): Cannot find object declaration.
+# Error: COMP96_0078: register_file.vhd : (29, 18): Unknown identifier "register_array".
+# Compile failure 9 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `registers.register_file' is not up-to-date. Please recompile file `C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\registers\registers/src/register_file.vhd'.
+acom -O3 -e 100 -work registers -2002  $dsn/src/register_file.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/registers/registers/src/register_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "behavioral" of Entity "register_file"
+# Error: COMP96_0078: register_file.vhd : (28, 19): Unknown identifier "register_array".
+# Error: COMP96_0133: register_file.vhd : (28, 19): Cannot find object declaration.
+# Error: COMP96_0289: register_file.vhd : (28, 19): Prefix of index must be an array.
+# Error: COMP96_0077: register_file.vhd : (28, 19): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: register_file.vhd : (29, 19): Unknown identifier "register_array".
+# Error: COMP96_0133: register_file.vhd : (29, 19): Cannot find object declaration.
+# Error: COMP96_0289: register_file.vhd : (29, 19): Prefix of index must be an array.
+# Error: COMP96_0077: register_file.vhd : (29, 19): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `registers.register_file' is not up-to-date. Please recompile file `C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\registers\registers/src/register_file.vhd'.
+acom -O3 -e 100 -work registers -2002  $dsn/src/register_file.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/registers/registers/src/register_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "behavioral" of Entity "register_file"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work registers -2002  $dsn/src/register_file.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/registers/registers/src/register_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "behavioral" of Entity "register_file"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
