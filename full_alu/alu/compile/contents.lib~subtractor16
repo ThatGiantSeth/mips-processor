@@ -1,0 +1,16 @@
+34
+~E 1 "../src/andgate.vhd" 4 andgate
+~A 1 "../src/andgate.vhd" 12 behavioral
+~E 1 "../src/fulladder.vhd" 4 fulladder
+~A 1 "../src/fulladder.vhd" 13 structural
+~E 1 "../src/halfadder.vhd" 4 halfadder
+~A 1 "../src/halfadder.vhd" 13 structural
+~E 1 "../src/notgate.vhd" 4 notgate
+~A 1 "../src/notgate.vhd" 9 behavioral
+~E 1 "../src/subtractor16.vhd" 5 subtractor16
+~A 1 "../src/subtractor16.vhd" 14 structural
+~E 1 "../src/TestBench/subtractor16_TB.vhd" 7 subtractor16_tb
+~A 1 "../src/TestBench/subtractor16_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "../src/TestBench/subtractor16_TB.vhd" 52 testbench_for_subtractor16
+~E 1 "../src/xorgate.vhd" 4 xorgate
+~A 1 "../src/xorgate.vhd" 12 behavioral

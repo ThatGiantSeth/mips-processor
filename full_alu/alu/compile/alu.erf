@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/Seth/Desktop/aldec-fall2025/alu-project/full_alu/alu/src/TestBench/alu_TB.vhd" 
+MESSAGE "Compile Entity "alu_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_alu"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

@@ -1,0 +1,11 @@
+44
+~E 1 "../src/andgate.vhd" 4 andgate
+~A 1 "../src/andgate.vhd" 12 behavioral
+~E 1 "../src/halfadder.vhd" 4 halfadder
+~A 0 "" 0 Adder
+~A 1 "../src/halfadder.vhd" 13 structural
+~E 1 "../src/TestBench/halfadder_TB.vhd" 6 halfadder_tb
+~A 1 "../src/TestBench/halfadder_TB.vhd" 9 TB_ARCHITECTURE
+~C 1 "../src/TestBench/halfadder_TB.vhd" 58 testbench_for_halfadder
+~E 1 "../src/xorgate.vhd" 4 xorgate
+~A 1 "../src/xorgate.vhd" 12 behavioral

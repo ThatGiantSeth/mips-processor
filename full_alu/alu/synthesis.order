@@ -1,0 +1,15 @@
+i<>.\src\alu.vhd
+i<>.\src\adder16.vhd
+i<>.\src\andgate.vhd
+i<>.\src\fulladder.vhd
+i<>.\src\halfadder.vhd
+i<>.\src\xorgate.vhd
+i<>.\src\subtractor16.vhd
+i<>.\src\multiplier16.vhd
+i<>.\src\and3gate.vhd
+i<>.\src\multiplexer1.vhd
+i<>.\src\multiplexer16.vhd
+i<>.\src\notgate.vhd
+i<>.\src\or5gate.vhd
+i<>.\src\orgate.vhd
+i<>.\src\TestBench\alu_TB.vhd

@@ -1,1 +1,2 @@
 i<>.\src\instr_mem.vhd
+i<>.\src\TestBench\instr_mem_TB.vhd

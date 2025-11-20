@@ -1,33 +1,371 @@
-acom -reorder -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
-# Compile Entity "instr_mem"
-# Compile Architecture "behavioral" of Entity "instr_mem"
-# Incorrect order of units detected.
-# Automatic reorder and incremental recompilation of required units in progress.
-# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
-# Compile Entity "instr_mem"
-# Compile Architecture "behavioral" of Entity "instr_mem"
-# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
-# Compile Entity "instr_mem"
-# Compile Architecture "behavioral" of Entity "instr_mem"
-# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
-# Compile Entity "instr_mem"
-# Compile Architecture "behavioral" of Entity "instr_mem"
-# Error: COMP96_0268: instr_mem.vhd : (9, 2): Missing index range constraint.
-# Error: COMP96_0018: instr_mem.vhd : (10, 1): Identifier expected.
-# Error: COMP96_0015: instr_mem.vhd : (10, 1): ')' expected.
-# Error: COMP96_0015: instr_mem.vhd : (10, 1): ';' expected.
-# Error: COMP96_0019: instr_mem.vhd : (10, 5): Keyword 'end' expected.
-# Error: COMP96_0056: instr_mem.vhd : (12, 1): Cannot find referenced entity declaration "instr_mem".
-# Compile failure 6 Errors 0 Warnings  Analysis time :  0.4 [s]
-acom -reorder -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
-# Compile Entity "instr_mem"
-# Compile Architecture "behavioral" of Entity "instr_mem"
-# Top-level unit(s) detected:
-# Entity => instr_mem
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Error: COMP96_0015: instr_mem.vhd : (17, 24): ')' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Error: COMP96_0077: instr_mem.vhd : (17, 22): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0079: instr_mem.vhd : (17, 11): Invalid aggregate.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Error: COMP96_0019: instr_mem.vhd : (34, 3): Keyword 'begin' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Error: COMP96_0015: instr_mem.vhd : (36, 2): ')' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Error: COMP96_0071: instr_mem.vhd : (36, 28): Operator "sll" is not defined for such operands.
+# Error: COMP96_0077: instr_mem.vhd : (36, 19): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/TestBench/instr_mem_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/TestBench/instr_mem_TB.vhd
+# Compile Entity "instr_mem_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "instr_mem_tb"
+# Error: COMP96_0367: TestBench/instr_mem_TB.vhd : (37, 10): Improper array length (16). Expected length is 8.
+# Error: COMP96_0367: TestBench/instr_mem_TB.vhd : (39, 10): Improper array length (16). Expected length is 8.
+# Error: COMP96_0367: TestBench/instr_mem_TB.vhd : (41, 10): Improper array length (16). Expected length is 8.
+# Compile Configuration "TESTBENCH_FOR_instr_mem"
+# Error: COMP96_0209: TestBench/instr_mem_TB.vhd : (47, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Warning: COMP96_0367: instr_mem.vhd : (36, 19): Improper array length (8). Expected length is 16.
+# Compile success 0 Errors 1 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/TestBench/instr_mem_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/TestBench/instr_mem_TB.vhd
+# Compile Entity "instr_mem_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "instr_mem_tb"
+# Compile Configuration "TESTBENCH_FOR_instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+instr_mem_tb instr_mem_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5176 kB (elbread=256 elab2=4782 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\instr_memory\instr_memory\src\wave.asdb
+#  5:22 PM, Thursday, November 20, 2025
+#  Simulation has been initialized
+# 2 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/wave.asdb'.
+run @200nsns
+# Error: run: unexpected parameter @200nsns
+# Error: Usage:
+# Error: run -help
+# Error: run [-all | -continue | -delta {<number> | @<number>} | -next | <time_step> | @<time>]
+run @200ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /instr_mem_tb/UUT,  Process: line__34.
+# KERNEL: stopped at time: 200 ns
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/TestBench/instr_mem_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/TestBench/instr_mem_TB.vhd
+# Compile Entity "instr_mem_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "instr_mem_tb"
+# Compile Configuration "TESTBENCH_FOR_instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+instr_mem_tb instr_mem_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5176 kB (elbread=256 elab2=4782 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\instr_memory\instr_memory\src\wave.asdb
+#  5:23 PM, Thursday, November 20, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/wave.asdb'.
+# 2 object(s) traced.
+run @150ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /instr_mem_tb/UUT,  Process: line__34.
+# KERNEL: stopped at time: 150 ns
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/TestBench/instr_mem_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/TestBench/instr_mem_TB.vhd
+# Compile Entity "instr_mem_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "instr_mem_tb"
+# Compile Configuration "TESTBENCH_FOR_instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+instr_mem_tb instr_mem_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5177 kB (elbread=256 elab2=4782 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\instr_memory\instr_memory\src\wave.asdb
+#  5:24 PM, Thursday, November 20, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/wave.asdb'.
+# 2 object(s) traced.
+run @150ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /instr_mem_tb/UUT,  Process: line__34.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /instr_mem_tb/UUT,  Process: line__34.
+# KERNEL: stopped at time: 150 ns
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Error: COMP96_0019: instr_mem.vhd : (40, 3): Keyword 'begin' expected.
+# Error: COMP96_0019: instr_mem.vhd : (41, 2): Keyword 'end' expected.
+# Error: COMP96_0016: instr_mem.vhd : (42, 2): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/TestBench/instr_mem_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/TestBench/instr_mem_TB.vhd
+# Compile Entity "instr_mem_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "instr_mem_tb"
+# Compile Configuration "TESTBENCH_FOR_instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+instr_mem_tb instr_mem_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5177 kB (elbread=256 elab2=4782 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\instr_memory\instr_memory\src\wave.asdb
+#  5:25 PM, Thursday, November 20, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/wave.asdb'.
+# 2 object(s) traced.
+run @150ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /instr_mem_tb/UUT,  Process: line__34.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /instr_mem_tb/UUT,  Process: line__34.
+# KERNEL: stopped at time: 150 ns
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Error: COMP96_0019: instr_mem.vhd : (34, 3): Keyword 'begin' expected.
+# Error: COMP96_0019: instr_mem.vhd : (35, 2): Keyword 'end' expected.
+# Error: COMP96_0016: instr_mem.vhd : (36, 2): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+instr_mem_tb instr_mem_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5176 kB (elbread=256 elab2=4782 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\instr_memory\instr_memory\src\wave.asdb
+#  5:28 PM, Thursday, November 20, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/wave.asdb'.
+# 2 object(s) traced.
+run @150ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /instr_mem_tb/UUT,  Process: line__33.
+# KERNEL: stopped at time: 150 ns
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/instr_mem.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+instr_mem_tb instr_mem_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5176 kB (elbread=256 elab2=4782 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\instr_memory\instr_memory\src\wave.asdb
+#  5:31 PM, Thursday, November 20, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/wave.asdb'.
+# 2 object(s) traced.
+run @150ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /instr_mem_tb/UUT,  Process: line__33.
+# KERNEL: stopped at time: 150 ns
+acom -O3 -e 100 -work instr_memory -2002  $dsn/src/TestBench/instr_mem_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_memory/instr_memory/src/TestBench/instr_mem_TB.vhd
+# Compile Entity "instr_mem_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "instr_mem_tb"
+# Compile Configuration "TESTBENCH_FOR_instr_mem"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]

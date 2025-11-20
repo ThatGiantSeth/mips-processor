@@ -1,0 +1,18 @@
+53
+~E 1 "../src/and3gate.vhd" 4 and3gate
+~A 1 "../src/and3gate.vhd" 11 behavioral
+~E 1 "../src/andgate.vhd" 4 andgate
+~A 1 "../src/andgate.vhd" 12 behavioral
+~E 1 "../src/multiplexer1.vhd" 5 multiplexer1
+~A 1 "../src/multiplexer1.vhd" 13 structural
+~E 1 "../src/multiplexer16.vhd" 5 multiplexer16
+~A 1 "../src/multiplexer16.vhd" 13 Structural
+~E 1 "../src/TestBench/multiplexer16_TB.vhd" 7 multiplexer16_tb
+~A 1 "../src/TestBench/multiplexer16_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/notgate.vhd" 4 notgate
+~A 1 "../src/notgate.vhd" 9 behavioral
+~E 1 "../src/or5gate.vhd" 4 or5gate
+~A 1 "../src/or5gate.vhd" 9 structural
+~E 1 "../src/orgate.vhd" 4 orgate
+~A 1 "../src/orgate.vhd" 9 structural
+~C 1 "../src/TestBench/multiplexer16_TB.vhd" 65 testbench_for_multiplexer16

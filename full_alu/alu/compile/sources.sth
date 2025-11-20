@@ -1,0 +1,22 @@
+[Files List]
+C:\Aldec\Active-HDL-12\vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL-12\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL-12\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL-12\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Aldec\Active-HDL-12\vlib\ieee/src/numeric_std.vhdl=S
+C:\Aldec\Active-HDL-12\vlib\ieee/src/numeric_std-body.vhdl=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/or5gate.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/andgate.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/and3gate.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/notgate.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/multiplexer1.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/xorgate.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/orgate.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/halfadder.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/fulladder.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/multiplexer16.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/multiplier16.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/subtractor16.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/adder16.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/alu.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\full_alu\alu/src/TestBench/alu_TB.vhd=S

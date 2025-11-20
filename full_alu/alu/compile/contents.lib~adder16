@@ -1,0 +1,15 @@
+85
+~E 1 "../src/adder16.vhd" 5 Adder16
+~A 1 "../src/adder16.vhd" 15 structural
+~A 0 "" 0 stuctural
+~E 1 "../src/TestBench/adder16_TB.vhd" 7 adder16_tb
+~A 1 "../src/testbench/adder16_tb.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/andgate.vhd" 4 andgate
+~A 1 "../src/andgate.vhd" 12 behavioral
+~E 1 "../src/fulladder.vhd" 4 fulladder
+~A 1 "../src/fulladder.vhd" 13 structural
+~E 1 "../src/halfadder.vhd" 4 halfadder
+~A 1 "../src/halfadder.vhd" 13 structural
+~C 1 "../src/testbench/adder16_tb.vhd" 58 testbench_for_adder16
+~E 1 "../src/xorgate.vhd" 4 xorgate
+~A 1 "../src/xorgate.vhd" 12 behavioral

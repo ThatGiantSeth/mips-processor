@@ -1,28 +1,35 @@
-Active-HDL 12.0.118.7745 2025-11-18 20:13:50
+Active-HDL 12.0.118.7745 2025-11-20 17:31:03
 
 Elaboration top modules:
-Architecture                  behavioral(instr_mem)
+Architecture                  TB_ARCHITECTURE(instr_mem_tb)
 
 
------------------------------------------------------------------------------------------------
-Entity    | Architecture | Library      | Info | Compiler Version        | Compilation Options
------------------------------------------------------------------------------------------------
-instr_mem | behavioral   | instr_memory |      | 12.0.118.7745 (Windows) | -O3
------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+Entity       | Architecture    | Library      | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------
+instr_mem_tb | TB_ARCHITECTURE | instr_memory |      | 12.0.118.7745 (Windows) | -O3
+instr_mem    | behavioral      | instr_memory |      | 12.0.118.7745 (Windows) | -O3
+-----------------------------------------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------
-VHDL Package             | Library      | Info | Compiler Version        | Compilation Options
------------------------------------------------------------------------------------------------
-standard                 | std          |      |                         | <unavailable>
-TEXTIO                   | std          |      |                         | <unavailable>
-std_logic_1164           | ieee         |      |                         | <unavailable>
-NUMERIC_STD              | ieee         |      |                         | <unavailable>
------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+VHDL Package                   | Library      | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------
+standard                       | std          |      |                         | <unavailable>
+TEXTIO                         | std          |      |                         | <unavailable>
+std_logic_1164                 | ieee         |      |                         | <unavailable>
+NUMERIC_STD                    | ieee         |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------
-Library                  | Comment
------------------------------------------------------------------------------------------------
-ieee                     | Standard IEEE packages library
-instr_memory             | None
-std                      | Standard VHDL library
------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+Library                        | Comment
+-----------------------------------------------------------------------------------------------------
+ieee                           | Standard IEEE packages library
+instr_memory                   | None
+std                            | Standard VHDL library
+-----------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+instr_mem_tb instr_mem_tb TB_ARCHITECTURE
+
+
+The performance of simulation is reduced. Version EDU Edition

@@ -1,3 +1,6 @@
-1
+18
 ~E 1 "../src/instr_mem.vhd" 5 instr_mem
 ~A 1 "../src/instr_mem.vhd" 12 behavioral
+~E 1 "../src/TestBench/instr_mem_TB.vhd" 7 instr_mem_tb
+~A 1 "../src/TestBench/instr_mem_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "../src/TestBench/instr_mem_TB.vhd" 46 testbench_for_instr_mem

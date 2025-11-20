@@ -6,7 +6,7 @@ Built-in symbols=0
 CurrentVersion=103
 
 [CACHEDOC|Aldec.Project.Generic.7|.\registers\registers.adf|]
-Path=
+Path=/register_file
 
 [Gui config]
 RunFor=100 ns
@@ -18,6 +18,15 @@ Status=Compiled
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\registers\src\register_file.vhd|]
 CurrentLine=10
 CurrentColumn=35
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo=LAAAAAAAAAABAAAA/////////////////////xwBAAB9AAAA/wQAADwCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAA
+
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\registers\src/register_file.vhd|]
+CurrentLine=0
+CurrentColumn=0
 Bookmarks=-1
 BookmarksLength=3
 ZoomFactor=0
