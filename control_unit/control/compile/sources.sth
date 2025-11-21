@@ -1,0 +1,11 @@
+[Files List]
+C:\Aldec\Active-HDL-12\vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL-12\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL-12\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL-12\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Aldec\Active-HDL-12\vlib\ieee/src/numeric_std.vhdl=S
+C:\Aldec\Active-HDL-12\vlib\ieee/src/numeric_std-body.vhdl=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\control_unit\control/src/notgate.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\control_unit\control/src/and3gate.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\control_unit\control/src/control_unit.vhd=S
+C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\control_unit\control/src/TestBench/control_unit_TB.vhd=S

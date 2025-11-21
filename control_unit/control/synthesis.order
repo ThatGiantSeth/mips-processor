@@ -1,0 +1,3 @@
+i<>.\src\control_unit.vhd
+i<>.\src\or7gate.vhd
+i<>.\src\TestBench\control_unit_TB.vhd

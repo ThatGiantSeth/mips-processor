@@ -26,3 +26,7 @@ WindowVisible=0
 HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
+[Files]
+/instr_decoder.vhd=-1
+[Files.Data]
+.\src\instr_decoder.vhd=VHDL Source Code

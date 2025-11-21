@@ -1,0 +1,5 @@
+.\src\notgate.vhd
+.\src\control_unit.vhd
+.\src\and3gate.vhd
+.\src\or7gate.vhd
+.\src\TestBench\control_unit_TB.vhd
