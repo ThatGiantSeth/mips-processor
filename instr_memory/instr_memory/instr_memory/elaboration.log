@@ -1,4 +1,4 @@
-Active-HDL 12.0.118.7745 2025-11-20 17:31:03
+Active-HDL 12.0.118.7745 2025-11-22 14:25:50
 
 Elaboration top modules:
 Architecture                  TB_ARCHITECTURE(instr_mem_tb)
@@ -27,9 +27,3 @@ ieee                           | Standard IEEE packages library
 instr_memory                   | None
 std                            | Standard VHDL library
 -----------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+instr_mem_tb instr_mem_tb TB_ARCHITECTURE
-
-
-The performance of simulation is reduced. Version EDU Edition

@@ -4,7 +4,7 @@ use ieee.numeric_std.all;
 
 entity instr_mem is
 	Port(
-	addr : in std_logic_vector(15 downto 0); -- program counter
+	addr : in std_logic_vector(9 downto 0); -- program counter
 	instruction : out std_logic_vector(15 downto 0) -- output instruction
 	);
 end instr_mem;
@@ -34,6 +34,6 @@ begin
 	process(addr)
 	begin
 		-- address is shifted right by 2 becuase PC = PC + 4 but need to increase index by only 1
-		instruction <= program(to_integer(unsigned("00" & addr(15 downto 2))));
+		instruction <= program(to_integer(unsigned("00" & addr(9 downto 2))));
 	end process;
 end behavioral;

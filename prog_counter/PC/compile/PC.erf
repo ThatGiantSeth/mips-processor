@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/prog_counter/PC/src/TestBench/pc_TB.vhd" 
+MESSAGE "Compile Entity "pc_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "pc_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_pc"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]" 

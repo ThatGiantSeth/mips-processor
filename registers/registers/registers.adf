@@ -23,7 +23,7 @@ UCF=
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=register_file|behavioral|0  
+HierarchyInformation=register_file|behavioral|0    
 ShowHide=ShowTopLevel
 Selected=
 [Files]

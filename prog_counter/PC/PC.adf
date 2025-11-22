@@ -5,13 +5,13 @@ version=4
 Current Config=compile
 
 [Configurations]
-compile=instr_memory
+compile=pc
 
 [Library]
-instr_memory=.\instr_memory\instr_memory.lib
+PC=.\PC\PC.lib
 
 [$LibMap$]
-instr_memory=.
+PC=.
 Active_lib=
 
 [Settings]
@@ -30,7 +30,7 @@ UCF=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=instr_mem_tb|TB_ARCHITECTURE|0   
+HierarchyInformation=pc|behavioral|0 pc_tb|TB_ARCHITECTURE|0 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -38,12 +38,16 @@ Selected=
 TestBench=1
 
 [Files]
-/instr_mem.vhd=-1
-TestBench/instr_mem_TB.vhd=-1
-TestBench/instr_mem_TB_runtest.do=-1
+/pc.vhd=-1
+/pcwave.asdb=-1
+/pcwave.awc=-1
+TestBench/pc_TB.vhd=-1
+TestBench/pc_TB_runtest.do=-1
 
 [Files.Data]
-.\src\instr_mem.vhd=VHDL Source Code
-.\src\TestBench\instr_mem_TB.vhd=VHDL Test Bench
-.\src\TestBench\instr_mem_TB_runtest.do=Macro
+.\src\pc.vhd=VHDL Source Code
+.\src\pcwave.asdb=Accelerated Waveform File
+.\src\pcwave.awc=Accelerated Waveform Configuration
+.\src\TestBench\pc_TB.vhd=VHDL Test Bench
+.\src\TestBench\pc_TB_runtest.do=Macro
 
