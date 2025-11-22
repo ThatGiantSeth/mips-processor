@@ -1,1 +1,11 @@
-0
+6
+~E 1 "../src/and3gate.vhd" 4 and3gate
+~A 1 "../src/and3gate.vhd" 11 behavioral
+~E 1 "../src/control_unit.vhd" 5 control_unit
+~A 1 "../src/control_unit.vhd" 13 structural
+~E 1 "../src/instr_decoder.vhd" 5 instr_decoder
+~A 1 "../src/instr_decoder.vhd" 16 structural
+~E 1 "../src/notgate.vhd" 4 notgate
+~A 1 "../src/notgate.vhd" 9 behavioral
+~E 1 "../src/or7gate.vhd" 4 or7gate
+~A 1 "../src/or7gate.vhd" 9 structural

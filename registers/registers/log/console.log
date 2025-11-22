@@ -1,8 +1,2 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-acom -O3 -e 100 -work registers -2002  $dsn/src/register_file.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/registers/registers/src/register_file.vhd
-# Compile Entity "register_file"
-# Compile Architecture "behavioral" of Entity "register_file"
-# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]

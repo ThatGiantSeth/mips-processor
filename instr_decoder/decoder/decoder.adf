@@ -23,10 +23,20 @@ UCF=
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=instr_decoder|structural|0 
 ShowHide=ShowTopLevel
 Selected=
 [Files]
 /instr_decoder.vhd=-1
+/and3gate.vhd=-1
+/control_unit.vhd=-1
+/notgate.vhd=-1
+/or7gate.vhd=-1
 [Files.Data]
 .\src\instr_decoder.vhd=VHDL Source Code
+.\src\and3gate.vhd=VHDL Source Code
+.\src\control_unit.vhd=VHDL Source Code
+.\src\notgate.vhd=VHDL Source Code
+.\src\or7gate.vhd=VHDL Source Code
+[ORDER]
+Synchronize=0

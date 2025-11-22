@@ -1,1 +1,5 @@
+.\src\or7gate.vhd
+.\src\notgate.vhd
+.\src\and3gate.vhd
+.\src\control_unit.vhd
 .\src\instr_decoder.vhd

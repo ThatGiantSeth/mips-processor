@@ -1,0 +1,69 @@
+acom -reorder -O3 -e 100 -work decoder -2002  $dsn/src/instr_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/instr_decoder.vhd
+# Compile Entity "instr_decoder"
+# Compile Architecture "structural" of Entity "instr_decoder"
+# Top-level unit(s) detected:
+# Entity => instr_decoder
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work decoder -2002  $dsn/src/instr_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/instr_decoder.vhd
+# Compile Entity "instr_decoder"
+# Compile Architecture "structural" of Entity "instr_decoder"
+# Error: COMP96_0078: instr_decoder.vhd : (21, 24): Unknown identifier "control_unit".
+# Error: COMP96_0055: instr_decoder.vhd : (21, 19): Cannot find context item "work.control_unit".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `structural' of entity `decoder.instr_decoder' is not up-to-date. Please recompile file `C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\instr_decoder\decoder/src/instr_decoder.vhd'.
+acom -O3 -e 100 -work decoder -2002  $dsn/src/or7gate.vhd $dsn/src/notgate.vhd $dsn/src/and3gate.vhd $dsn/src/control_unit.vhd $dsn/src/instr_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/or7gate.vhd
+# Compile Entity "or7gate"
+# Compile Architecture "structural" of Entity "or7gate"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/notgate.vhd
+# Compile Entity "notgate"
+# Compile Architecture "behavioral" of Entity "notgate"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/and3gate.vhd
+# Compile Entity "and3gate"
+# Compile Architecture "behavioral" of Entity "and3gate"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/control_unit.vhd
+# Compile Entity "control_unit"
+# Compile Architecture "structural" of Entity "control_unit"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/instr_decoder.vhd
+# Compile Entity "instr_decoder"
+# Compile Architecture "structural" of Entity "instr_decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -O3 -e 100 -work decoder -2002  $dsn/src/instr_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/instr_decoder.vhd
+# Compile Entity "instr_decoder"
+# Compile Architecture "structural" of Entity "instr_decoder"
+# Error: COMP96_0019: instr_decoder.vhd : (32, 6): Keyword '<=' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `structural' of entity `decoder.instr_decoder' is not up-to-date. Please recompile file `C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\instr_decoder\decoder/src/instr_decoder.vhd'.
+acom -O3 -e 100 -work decoder -2002  $dsn/src/instr_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/instr_decoder.vhd
+# Compile Entity "instr_decoder"
+# Compile Architecture "structural" of Entity "instr_decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work decoder -2002  $dsn/src/or7gate.vhd $dsn/src/notgate.vhd $dsn/src/and3gate.vhd $dsn/src/control_unit.vhd $dsn/src/instr_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/or7gate.vhd
+# Compile Entity "or7gate"
+# Compile Architecture "structural" of Entity "or7gate"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/notgate.vhd
+# Compile Entity "notgate"
+# Compile Architecture "behavioral" of Entity "notgate"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/and3gate.vhd
+# Compile Entity "and3gate"
+# Compile Architecture "behavioral" of Entity "and3gate"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/control_unit.vhd
+# Compile Entity "control_unit"
+# Compile Architecture "structural" of Entity "control_unit"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/instr_decoder/decoder/src/instr_decoder.vhd
+# Compile Entity "instr_decoder"
+# Compile Architecture "structural" of Entity "instr_decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]

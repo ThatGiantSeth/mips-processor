@@ -6,7 +6,7 @@ Built-in symbols=0
 CurrentVersion=103
 
 [CACHEDOC|Aldec.Project.Generic.7|.\registers\registers.adf|]
-Path=
+Path=/register_file
 
 [Gui config]
 RunFor=100 ns

@@ -1,0 +1,5 @@
+acom -2002 -O3 -e 100 -protect 0 -reorder "$dsn/src/or7gate.vhd"
+acom -2002 -O3 -e 100 -protect 0 -reorder "$dsn/src/notgate.vhd"
+acom -2002 -O3 -e 100 -protect 0 -reorder "$dsn/src/and3gate.vhd"
+acom -2002 -O3 -e 100 -protect 0 -reorder "$dsn/src/control_unit.vhd"
+acom -2002 -O3 -e 100 -protect 0 -reorder "$dsn/src/instr_decoder.vhd"

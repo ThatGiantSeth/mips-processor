@@ -1,2 +1,5 @@
 # ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Error: Architecture 'structural' of entity 'alu' not found in library 'alu'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Library Manager: Library "alu" contents cleared.
