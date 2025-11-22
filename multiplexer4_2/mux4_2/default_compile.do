@@ -1,0 +1,5 @@
+acom -2002 -O3 -e 100 -protect 0 -reorder "$dsn/src/andgate .vhd"
+acom -2002 -O3 -e 100 -protect 0 -reorder "$dsn/src/orgate .vhd"
+acom -2002 -O3 -e 100 -protect 0 -reorder "$dsn/src/notgate.vhd"
+acom -2002 -O3 -e 100 -protect 0 -reorder "$dsn/src/multiplexer1 .vhd"
+acom -2002 -O3 -e 100 -protect 0 -reorder "$dsn/src/mux4_2.vhd"

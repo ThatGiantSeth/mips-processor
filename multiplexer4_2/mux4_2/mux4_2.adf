@@ -1,0 +1,45 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=mux4_2
+
+[Library]
+mux4_2=.\mux4_2\mux4_2.lib
+
+[$LibMap$]
+mux4_2=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+
+[IMPLEMENTATION]
+UCF=
+
+[ORDER]
+Synchronize=0
+
+[Files]
+/andgate.vhd=-1
+/multiplexer1.vhd=-1
+/notgate.vhd=-1
+/orgate .vhd=-1
+/mux4_2.vhd=-1
+
+[Files.Data]
+.\src\andgate.vhd=VHDL Source Code
+.\src\multiplexer1.vhd=VHDL Source Code
+.\src\notgate.vhd=VHDL Source Code
+.\src\orgate .vhd=VHDL Source Code
+.\src\mux4_2.vhd=VHDL Source Code
+

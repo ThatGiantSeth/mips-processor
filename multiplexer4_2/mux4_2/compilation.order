@@ -1,0 +1,5 @@
+.\src\orgate .vhd
+.\src\notgate.vhd
+.\src\mux4_2.vhd
+.\src\andgate.vhd
+.\src\multiplexer1.vhd

@@ -1,0 +1,12 @@
+[Version]
+Version=12.0
+[Designs]
+mux4_2=.\mux4_2\mux4_2.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+mux4_2=1

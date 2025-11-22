@@ -1,0 +1,11 @@
+3
+~E 1 "../src/andgate.vhd" 4 andgate
+~A 1 "../src/andgate.vhd" 12 behavioral
+~E 1 "../src/multiplexer1.vhd" 5 multiplexer1
+~A 1 "../src/multiplexer1.vhd" 13 structural
+~E 1 "../src/mux4_2.vhd" 5 multiplexer4_2
+~A 1 "../src/mux4_2.vhd" 13 Structural
+~E 1 "../src/notgate.vhd" 4 notgate
+~A 1 "../src/notgate.vhd" 9 behavioral
+~E 1 "../src/orgate .vhd" 4 orgate
+~A 1 "../src/orgate .vhd" 9 structural

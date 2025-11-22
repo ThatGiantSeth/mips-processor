@@ -1,0 +1,130 @@
+# Design: Design mux16_2 already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work mux16_2 -2002  $dsn/src/mux16_2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/mux16_2.vhd
+# Compile Entity "multiplexer16_2"
+# Compile Architecture "Structural" of Entity "multiplexer16_2"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => multiplexer16_2
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/mux16_2.vhd
+# Compile Architecture "Structural" of Entity "multiplexer16_2"
+# Error: COMP96_0078: mux16_2.vhd : (18, 22): Unknown identifier "multiplexer1".
+# Error: COMP96_0055: mux16_2.vhd : (18, 17): Cannot find context item "work.multiplexer1".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work mux16_2 -2002  $dsn/src/mux16_2.vhd $dsn/src/multiplexer1.vhd $dsn/src/andgate.vhd $dsn/src/notgate.vhd $dsn/src/orgate.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/mux16_2.vhd
+# Compile Entity "multiplexer16_2"
+# Compile Architecture "Structural" of Entity "multiplexer16_2"
+# Error: COMP96_0078: mux16_2.vhd : (18, 22): Unknown identifier "multiplexer1".
+# Error: COMP96_0055: mux16_2.vhd : (18, 17): Cannot find context item "work.multiplexer1".
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/multiplexer1.vhd
+# Compile Entity "multiplexer1"
+# Error: COMP96_0078: multiplexer1.vhd : (4, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: multiplexer1.vhd : (4, 13): Unknown type.
+# Error: COMP96_0078: multiplexer1.vhd : (5, 9): Unknown identifier "std_logic".
+# Error: COMP96_0064: multiplexer1.vhd : (5, 9): Unknown type.
+# Error: COMP96_0078: multiplexer1.vhd : (6, 10): Unknown identifier "std_logic".
+# Error: COMP96_0064: multiplexer1.vhd : (6, 10): Unknown type.
+# Compile Architecture "structural" of Entity "multiplexer1"
+# Error: COMP96_0056: multiplexer1.vhd : (10, 1): Cannot find referenced entity declaration "multiplexer1".
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/andgate.vhd
+# Compile Entity "andgate"
+# Compile Architecture "behavioral" of Entity "andgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/notgate.vhd
+# Compile Entity "notgate"
+# Compile Architecture "behavioral" of Entity "notgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/orgate.vhd
+# Compile Entity "orgate"
+# Compile Architecture "structural" of Entity "orgate"
+# Compile failure 9 Errors 0 Warnings  Analysis time :  0.7 [s]
+acom -O3 -e 100 -work mux16_2 -2002  $dsn/src/andgate.vhd $dsn/src/orgate.vhd $dsn/src/notgate.vhd $dsn/src/multiplexer1.vhd $dsn/src/mux16_2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/andgate.vhd
+# Compile Entity "andgate"
+# Compile Architecture "behavioral" of Entity "andgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/orgate.vhd
+# Compile Entity "orgate"
+# Compile Architecture "structural" of Entity "orgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/notgate.vhd
+# Compile Entity "notgate"
+# Compile Architecture "behavioral" of Entity "notgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/multiplexer1.vhd
+# Compile Entity "multiplexer1"
+# Error: COMP96_0078: multiplexer1.vhd : (4, 13): Unknown identifier "std_logic".
+# Error: COMP96_0064: multiplexer1.vhd : (4, 13): Unknown type.
+# Error: COMP96_0078: multiplexer1.vhd : (5, 9): Unknown identifier "std_logic".
+# Error: COMP96_0064: multiplexer1.vhd : (5, 9): Unknown type.
+# Error: COMP96_0078: multiplexer1.vhd : (6, 10): Unknown identifier "std_logic".
+# Error: COMP96_0064: multiplexer1.vhd : (6, 10): Unknown type.
+# Compile Architecture "structural" of Entity "multiplexer1"
+# Error: COMP96_0056: multiplexer1.vhd : (10, 1): Cannot find referenced entity declaration "multiplexer1".
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/mux16_2.vhd
+# Compile Entity "multiplexer16_2"
+# Compile Architecture "Structural" of Entity "multiplexer16_2"
+# Error: COMP96_0078: mux16_2.vhd : (18, 22): Unknown identifier "multiplexer1".
+# Error: COMP96_0055: mux16_2.vhd : (18, 17): Cannot find context item "work.multiplexer1".
+# Compile failure 9 Errors 0 Warnings  Analysis time :  0.7 [s]
+acom -O3 -e 100 -work mux16_2 -2002  $dsn/src/andgate.vhd $dsn/src/orgate.vhd $dsn/src/notgate.vhd $dsn/src/multiplexer1.vhd $dsn/src/mux16_2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/andgate.vhd
+# Compile Entity "andgate"
+# Compile Architecture "behavioral" of Entity "andgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/orgate.vhd
+# Compile Entity "orgate"
+# Compile Architecture "structural" of Entity "orgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/notgate.vhd
+# Compile Entity "notgate"
+# Compile Architecture "behavioral" of Entity "notgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/multiplexer1.vhd
+# Compile Entity "multiplexer1"
+# Compile Architecture "structural" of Entity "multiplexer1"
+# Error: COMP96_0078: multiplexer1.vhd : (20, 51): Unknown identifier "nsel0".
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/mux16_2.vhd
+# Compile Entity "multiplexer16_2"
+# Compile Architecture "Structural" of Entity "multiplexer16_2"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work mux16_2 -2002  $dsn/src/andgate.vhd $dsn/src/orgate.vhd $dsn/src/notgate.vhd $dsn/src/multiplexer1.vhd $dsn/src/mux16_2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/andgate.vhd
+# Compile Entity "andgate"
+# Compile Architecture "behavioral" of Entity "andgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/orgate.vhd
+# Compile Entity "orgate"
+# Compile Architecture "structural" of Entity "orgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/notgate.vhd
+# Compile Entity "notgate"
+# Compile Architecture "behavioral" of Entity "notgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/multiplexer1.vhd
+# Compile Entity "multiplexer1"
+# Compile Architecture "structural" of Entity "multiplexer1"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/mux16_2.vhd
+# Compile Entity "multiplexer16_2"
+# Compile Architecture "Structural" of Entity "multiplexer16_2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work mux16_2 -2002  $dsn/src/andgate.vhd $dsn/src/orgate.vhd $dsn/src/notgate.vhd $dsn/src/multiplexer1.vhd $dsn/src/mux16_2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/andgate.vhd
+# Compile Entity "andgate"
+# Compile Architecture "behavioral" of Entity "andgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/orgate.vhd
+# Compile Entity "orgate"
+# Compile Architecture "structural" of Entity "orgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/notgate.vhd
+# Compile Entity "notgate"
+# Compile Architecture "behavioral" of Entity "notgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/multiplexer1.vhd
+# Compile Entity "multiplexer1"
+# Compile Architecture "structural" of Entity "multiplexer1"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/mux16_2.vhd
+# Compile Entity "multiplexer16_2"
+# Compile Architecture "Structural" of Entity "multiplexer16_2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
