@@ -12,4 +12,3 @@
 .\src\multiplexer1.vhd
 .\src\multiplexer16.vhd
 .\src\alu.vhd
-.\src\testbench\alu_tb.vhd

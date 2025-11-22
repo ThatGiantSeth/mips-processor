@@ -12,4 +12,3 @@ i<>.\src\multiplexer16.vhd
 i<>.\src\notgate.vhd
 i<>.\src\or5gate.vhd
 i<>.\src\orgate.vhd
-i<>.\src\TestBench\alu_TB.vhd

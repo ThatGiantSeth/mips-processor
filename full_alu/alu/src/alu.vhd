@@ -8,7 +8,7 @@ entity alu is
 	A, B 	: in signed(15 downto 0);
 	S2, S1, S0		: in std_logic;
 	status	: out std_logic_vector(2 downto 0);
-	Result, add_res, sub_res, mult_res, passA_res, passB_res	: out signed(15 downto 0)
+	Result  : out signed(15 downto 0)
 	);
 end alu;
 
@@ -41,10 +41,10 @@ begin
 	create_mux: entity work.multiplexer16 port map (
 	S => Op, 
 	in0 => sum, 
-	in1 => diff, 
-	in2 => prod16, 
-	in3 => passA, 
-	in4 => passB, 
+	in1 => prod16, 
+	in2 => passA, 
+	in3 => passB, 
+	in4 => diff, 
 	R => res
 	); 	  
 	
@@ -55,11 +55,6 @@ begin
 			
 			-- propagate result
 			Result <= res; 
-			add_res <= sum;
-			sub_res <= diff;
-			mult_res <= prod16;
-			passA_res <= passA;
-			passB_res <= passB;
 			
 			-- set overflow status bit by checking operation and propagating the associated overflow signal
 			case Op is

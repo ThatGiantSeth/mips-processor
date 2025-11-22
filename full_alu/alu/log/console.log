@@ -1,3 +1,121 @@
 # ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# Waveform file 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/full_alu/alu/src/fullwave.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/full_alu/alu/src/fullwave.asdb'.
+# ELBREAD: Error: Architecture 'TB_ARCHITECTURE' of entity 'alu_tb' not found in library 'alu'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -O3 -e 100 -work alu -2002  $dsn/src/alu.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "alu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -O3 -e 100 -work alu -2002  $dsn/src/or5gate.vhd $dsn/src/notgate.vhd $dsn/src/and3gate.vhd $dsn/src/andgate.vhd $dsn/src/xorgate.vhd $dsn/src/orgate.vhd $dsn/src/halfadder.vhd $dsn/src/fulladder.vhd $dsn/src/adder16.vhd $dsn/src/subtractor16.vhd $dsn/src/multiplier16.vhd $dsn/src/multiplexer1.vhd $dsn/src/multiplexer16.vhd $dsn/src/alu.vhd $dsn/src/testbench/alu_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/or5gate.vhd
+# Compile Entity "or5gate"
+# Compile Architecture "structural" of Entity "or5gate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/notgate.vhd
+# Compile Entity "notgate"
+# Compile Architecture "behavioral" of Entity "notgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/and3gate.vhd
+# Compile Entity "and3gate"
+# Compile Architecture "behavioral" of Entity "and3gate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/andgate.vhd
+# Compile Entity "andgate"
+# Compile Architecture "behavioral" of Entity "andgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/xorgate.vhd
+# Compile Entity "xorgate"
+# Compile Architecture "behavioral" of Entity "xorgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/orgate.vhd
+# Compile Entity "orgate"
+# Compile Architecture "structural" of Entity "orgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/halfadder.vhd
+# Compile Entity "halfadder"
+# Compile Architecture "structural" of Entity "halfadder"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/fulladder.vhd
+# Compile Entity "fulladder"
+# Compile Architecture "structural" of Entity "fulladder"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/adder16.vhd
+# Compile Entity "Adder16"
+# Compile Architecture "structural" of Entity "Adder16"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/subtractor16.vhd
+# Compile Entity "subtractor16"
+# Compile Architecture "structural" of Entity "subtractor16"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/multiplier16.vhd
+# Compile Entity "multiplier16"
+# Compile Architecture "behavioral" of Entity "multiplier16"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/multiplexer1.vhd
+# Compile Entity "multiplexer1"
+# Compile Architecture "structural" of Entity "multiplexer1"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/multiplexer16.vhd
+# Compile Entity "multiplexer16"
+# Compile Architecture "Structural" of Entity "multiplexer16"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "alu"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/testbench/alu_tb.vhd
+# Compile Entity "alu_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"
+# Warning: ELAB1_0026: testbench/alu_tb.vhd : (50, 0): There is no default binding for component "alu". (Port "add_res" is not on the entity).
+# Compile Configuration "TESTBENCH_FOR_alu"
+# Error: ELAB1_0030: testbench/alu_tb.vhd : (147, 0): Port "add_res" is on component "alu" but not on the entity "alu".
+# Error: ELAB1_0030: testbench/alu_tb.vhd : (147, 0): Port "sub_res" is on component "alu" but not on the entity "alu".
+# Error: ELAB1_0030: testbench/alu_tb.vhd : (147, 0): Port "mult_res" is on component "alu" but not on the entity "alu".
+# Error: ELAB1_0030: testbench/alu_tb.vhd : (147, 0): Port "passA_res" is on component "alu" but not on the entity "alu".
+# Error: ELAB1_0030: testbench/alu_tb.vhd : (147, 0): Port "passB_res" is on component "alu" but not on the entity "alu".
+# Error: COMP96_0203: testbench/alu_tb.vhd : (148, 4): Binding indication has neither a generic map aspect nor a port map aspect.
+# Error: ELAB1_0030: testbench/alu_tb.vhd : (148, 0): Port "add_res" is on component "alu" but not on the entity "alu".
+# Error: ELAB1_0030: testbench/alu_tb.vhd : (148, 0): Port "sub_res" is on component "alu" but not on the entity "alu".
+# Error: ELAB1_0030: testbench/alu_tb.vhd : (148, 0): Port "mult_res" is on component "alu" but not on the entity "alu".
+# Error: ELAB1_0030: testbench/alu_tb.vhd : (148, 0): Port "passA_res" is on component "alu" but not on the entity "alu".
+# Error: ELAB1_0030: testbench/alu_tb.vhd : (148, 0): Port "passB_res" is on component "alu" but not on the entity "alu".
+# Compile failure 11 Errors 1 Warnings  Analysis time :  3.0 [s]
+# Library Manager: Library "alu" contents cleared.
+acom -reorder -O3 -e 100 -work alu -2002  $dsn/src/or5gate.vhd $dsn/src/notgate.vhd $dsn/src/and3gate.vhd $dsn/src/andgate.vhd $dsn/src/xorgate.vhd $dsn/src/orgate.vhd $dsn/src/halfadder.vhd $dsn/src/fulladder.vhd $dsn/src/adder16.vhd $dsn/src/subtractor16.vhd $dsn/src/multiplier16.vhd $dsn/src/multiplexer1.vhd $dsn/src/multiplexer16.vhd $dsn/src/alu.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/or5gate.vhd
+# Compile Entity "or5gate"
+# Compile Architecture "structural" of Entity "or5gate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/notgate.vhd
+# Compile Entity "notgate"
+# Compile Architecture "behavioral" of Entity "notgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/and3gate.vhd
+# Compile Entity "and3gate"
+# Compile Architecture "behavioral" of Entity "and3gate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/andgate.vhd
+# Compile Entity "andgate"
+# Compile Architecture "behavioral" of Entity "andgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/xorgate.vhd
+# Compile Entity "xorgate"
+# Compile Architecture "behavioral" of Entity "xorgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/orgate.vhd
+# Compile Entity "orgate"
+# Compile Architecture "structural" of Entity "orgate"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/halfadder.vhd
+# Compile Entity "halfadder"
+# Compile Architecture "structural" of Entity "halfadder"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/fulladder.vhd
+# Compile Entity "fulladder"
+# Compile Architecture "structural" of Entity "fulladder"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/adder16.vhd
+# Compile Entity "Adder16"
+# Compile Architecture "structural" of Entity "Adder16"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/subtractor16.vhd
+# Compile Entity "subtractor16"
+# Compile Architecture "structural" of Entity "subtractor16"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/multiplier16.vhd
+# Compile Entity "multiplier16"
+# Compile Architecture "behavioral" of Entity "multiplier16"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/multiplexer1.vhd
+# Compile Entity "multiplexer1"
+# Compile Architecture "structural" of Entity "multiplexer1"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/multiplexer16.vhd
+# Compile Entity "multiplexer16"
+# Compile Architecture "Structural" of Entity "multiplexer16"
+# File: C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "alu"
+# Top-level unit(s) detected:
+# Entity => alu
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
