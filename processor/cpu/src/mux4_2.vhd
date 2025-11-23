@@ -13,7 +13,7 @@ end multiplexer4_2;
 architecture Structural of multiplexer4_2 is	 
 
 begin	
-	-- create 16 1-bit multiplexers, mapping each bit of the inputs and output
+	-- create 4 1-bit multiplexers, mapping each bit of the inputs and output
   gen_mux: for i in 0 to 3 generate
     mux: entity work.multiplexer2_1
       port map (

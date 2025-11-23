@@ -16,7 +16,7 @@ signal nsel : std_logic;
 signal out0, out1 : std_logic;
 
 begin	
-	-- inverts the select lines
+	-- inverted select line
 	notS: entity work.notgate_fast port map (a => S, r => nsel);
 
 	

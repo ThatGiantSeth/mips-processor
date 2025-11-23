@@ -11,7 +11,7 @@
     <gridshown/>
     <signallists>
         <signallist id="0">
-                AAAAGAAGwADSAAAQ0gsWAwE/AQAwAwEEl3HUAAAQEQAA
+                AAAANwADPzwB0wAAENAAABACAAAQCwgAABAeQAEGAwA/AT8BAwEnTQEjUAMMIgAAEMwAtQAAEHHUAAAQ        EQAA
 |
         </signallist>
     </signallists>
@@ -98,10 +98,15 @@
         </comments>
     </commentbases>
     <views>
-        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+        <view signallist="0" propertybase="0" prefbase="-1" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
     </views>
     <virtualsources>
         <virtualnamedrows>
+            <virtualnamedrow id="1" name="Clock"/>
+            <virtualnamedrow id="2" name="Current PC &amp; Instruction Being Executed"/>
+            <virtualnamedrow id="3" name="Control Signals"/>
+            <virtualnamedrow id="4" name="Registers (expand to view all)"/>
+            <virtualnamedrow id="5" name="RAM at addresses used in demo program (to save space)"/>
         </virtualnamedrows>
         <virtualbuses>
         </virtualbuses>

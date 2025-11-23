@@ -4,7 +4,6 @@
 .\src\and3gate.vhd
 .\src\orgate.vhd
 .\src\xorgate.vhd
-.\src\or7gate.vhd
 .\src\andgate_fast.vhd
 .\src\notgate_fast.vhd
 .\src\andgate.vhd

@@ -13,23 +13,25 @@ entity ram256 is
 end ram256;
 
 architecture behavioral of ram256 is
+-- RAM array with 256 slots
 type vector_array is array(0 to 255) of std_logic_vector(15 downto 0);
-signal ram_array : vector_array;  
+signal ram_array : vector_array; 
 
 begin
 	process(clk)
 	begin 
 		if rising_edge(clk) then   
 			if write_mem = '1' then	  
-				-- is there a cleaner way to do this than going vector -> unsigned -> integer?
-				-- i tried originally with just addr but i assume the array can only take integers for indexing
-				ram_array(to_integer(unsigned(addr))) <= data_in;
+				-- QUESTION: is there a cleaner way to do this than going vector -> unsigned -> integer?
+				-- i tried originally with just addr but i assume arrays can only take integers for indexing
+				ram_array(to_integer(unsigned(addr))) <= data_in; -- get data from specified address on clock edge
 			end if;
 		end if;
 	end process;
 	
+	-- QUESTION: maybe rework with/select into a process like the register file (maybe process(addr)?)
 	with read_mem select
-	data_out <= ram_array(to_integer(unsigned(addr))) when '1',
+	data_out <= ram_array(to_integer(unsigned(addr))) when '1', --outputs data stored in specified address
  				"0000000000000000" when others;
 
 end behavioral;

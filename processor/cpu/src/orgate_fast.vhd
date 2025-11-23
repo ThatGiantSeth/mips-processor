@@ -8,5 +8,5 @@ end orgate_fast;
 
 architecture structural of orgate_fast is
 begin
-  r <= a or b;
+  r <= a or b; -- NOTE: ONLY USE FOR MUX - NO PROPAGATION DELAY
 end structural;

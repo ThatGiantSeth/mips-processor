@@ -17,13 +17,13 @@ entity Adder16 is
 end Adder16;
 
 architecture structural of Adder16 is
---17 bit carry in order to ripple through all 16 adders and produce a single carryout bit
+--17 bit carry in order to ripple through all 16 adders and produce an extra carryout bit
 signal carry	:	std_logic_vector(16 downto 0);	
 --internal 16 bit sum signal for overflow handling
 signal sum_int	:	signed(15 downto 0);
 begin
 	carry(0) <= Cin;
-	 --16 full adders connected together via a for loop
+	 --16 full adders connected together via for loop
 	create_FAs : for i in 0 to 15 generate
 		FA: entity work.fulladder port map(A => A(i), B => B(i), Cin => carry(i), Sum => sum_int(i), Cout => carry(i+1));
 	end generate;

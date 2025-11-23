@@ -9,10 +9,12 @@ entity instr_mem is
 	);
 end instr_mem;
 
--- how would we implement this dynamically so that the program isn't hard-coded?
+-- QUESTION: should we implement this dynamically so that the program isn't hard-coded?
 architecture behavioral of instr_mem is
+-- memory array of size 256 (not nearly filled by the demo program)
 type vector_array is array(0 to 255) of std_logic_vector(15 downto 0);
 constant program : vector_array := (
+-- using hex because it was easier to type
 x"500A", -- ldi $r0, 10
 x"5105", -- ldi $r1, 5
 x"5200", -- ldi $r2, 0
@@ -22,7 +24,7 @@ x"5500", -- ldi $r5, 0
 x"5600", -- ldi $r6, 0
 x"5700", -- ldi $r7, 0
 x"0201", -- add $r2, $r0, $r1
-x"1301", -- add $r3, $r0, $r1
+x"1301", -- mult $r3, $r0, $r1
 x"4401", -- sub $r4, $r0, $r1
 x"630B", -- sh $r3, 0x0B
 x"640A", -- sh $r4, 0x0A

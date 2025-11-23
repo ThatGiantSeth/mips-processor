@@ -26,7 +26,7 @@ begin
 	create_notB: for i in 0 to 15 generate
 		notB: entity work.notgate port map (a => B(i), r => Binv(i));	 
 	end generate;
-	--for twos complement
+	-- +1 for twos complement
 	carry(0) <= '1';
 
 	 --16 full adders connected together via a "for" loop

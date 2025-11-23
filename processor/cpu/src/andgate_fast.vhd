@@ -11,5 +11,5 @@ end andgate_fast;
 
 architecture behavioral of andgate_fast is
 begin
-	r <= a and b;
+	r <= a and b; -- NOTE: ONLY USE FOR MUX - NO PROPAGATION DELAY
 end behavioral;

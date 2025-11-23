@@ -8,5 +8,5 @@ end notgate_fast;
 
 architecture behavioral of notgate_fast is
 begin
-  r <= not a;
+  r <= not a;  -- NOTE: ONLY USE FOR MUX - NO PROPAGATION DELAY
 end behavioral;

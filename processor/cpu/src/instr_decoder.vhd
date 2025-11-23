@@ -3,21 +3,27 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity instr_decoder is
-	Port(
-	instr : in std_logic_vector(15 downto 0); -- instruction being decoded
-	ImmToReg, ReadSrc, RegWrite, MemRead, MemToReg, MemWrite : out std_logic; -- control signals
-	ALUOp : out std_logic_vector(2 downto 0); -- ALU operation
-	regC, regA, regB, regD : out std_logic_vector(3 downto 0); -- register addresses for register file
-	immed : out std_logic_vector(7 downto 0) -- 8 bit immediate value
+	Port( 
+	-- instruction being decoded
+	instr : in std_logic_vector(15 downto 0); 
+	 -- control signals from control unit
+	ImmToReg, ReadSrc, RegWrite, MemRead, MemToReg, MemWrite : out std_logic;
+	ALUOp : out std_logic_vector(2 downto 0);
+	-- register addresses for register file
+	regC, regA, regB, regD : out std_logic_vector(3 downto 0);
+	-- 8 bit immediate value
+	immed : out std_logic_vector(7 downto 0)
 	);
 end instr_decoder;
 
 
 architecture structural of instr_decoder is
 signal opcode : std_logic_vector(2 downto 0); 
-begin	
+begin
+	-- get opcode from highest bits (excluding unused bit 15)
 	opcode <= instr(14 downto 12);
 	
+	-- use control unit to determine control signals from opcode
 	control : entity work.control_unit port map(
 		op => opcode,
 		ImmToReg => ImmToReg,
@@ -29,6 +35,7 @@ begin
 		ALUOp => ALUOp
 	);
 	
+	-- set register read and write addresses + immediate
 	regC <= instr(11 downto 8);
 	regD <= instr(11 downto 8);
 	regA <= instr(7 downto 4);
