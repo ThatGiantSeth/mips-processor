@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/cpu.vhd" 
+MESSAGE "Compile Entity "cpu"" 
+MESSAGE "Compile Architecture "structural" of Entity "cpu"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

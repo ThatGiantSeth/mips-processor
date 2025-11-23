@@ -1,9 +1,48 @@
-Active-HDL 12.0.118.7745 2025-11-22 15:46:59
+Active-HDL 12.0.118.7745 2025-11-22 17:42:12
 
 Elaboration top modules:
+Architecture                  TB_ARCHITECTURE(alu_tb)
 
 
-----------------------------------------------------------------------------------
-Library                 | Comment
-----------------------------------------------------------------------------------
-----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+Entity        | Architecture    | Library | Info | Compiler Version        | Compilation Options
+-------------------------------------------------------------------------------------------------
+alu_tb        | TB_ARCHITECTURE | alu     |      | 12.0.118.7745 (Windows) | -O3
+alu           | structural      | alu     |      | 12.0.118.7745 (Windows) | -O3
+Adder16       | structural      | alu     |      | 12.0.118.7745 (Windows) | -O3
+subtractor16  | structural      | alu     |      | 12.0.118.7745 (Windows) | -O3
+multiplier16  | behavioral      | alu     |      | 12.0.118.7745 (Windows) | -O3
+multiplexer16 | Structural      | alu     |      | 12.0.118.7745 (Windows) | -O3
+fulladder     | structural      | alu     |      | 12.0.118.7745 (Windows) | -O3
+halfadder     | structural      | alu     |      | 12.0.118.7745 (Windows) | -O3
+orgate        | structural      | alu     |      | 12.0.118.7745 (Windows) | -O3
+xorgate       | behavioral      | alu     |      | 12.0.118.7745 (Windows) | -O3
+andgate       | behavioral      | alu     |      | 12.0.118.7745 (Windows) | -O3
+notgate       | behavioral      | alu     |      | 12.0.118.7745 (Windows) | -O3
+multiplexer1  | structural      | alu     |      | 12.0.118.7745 (Windows) | -O3
+and3gate      | behavioral      | alu     |      | 12.0.118.7745 (Windows) | -O3
+or5gate       | structural      | alu     |      | 12.0.118.7745 (Windows) | -O3
+-------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------
+VHDL Package                    | Library | Info | Compiler Version        | Compilation Options
+-------------------------------------------------------------------------------------------------
+standard                        | std     |      |                         | <unavailable>
+TEXTIO                          | std     |      |                         | <unavailable>
+std_logic_1164                  | ieee    |      |                         | <unavailable>
+NUMERIC_STD                     | ieee    |      |                         | <unavailable>
+-------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------
+Library                         | Comment
+-------------------------------------------------------------------------------------------------
+alu                             | None
+ieee                            | Standard IEEE packages library
+std                             | Standard VHDL library
+-------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+alu_tb alu_tb TB_ARCHITECTURE
+
+
+The performance of simulation is reduced. Version EDU Edition

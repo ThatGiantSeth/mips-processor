@@ -8,5 +8,5 @@ end orgate;
 
 architecture structural of orgate is
 begin
-  r <= a or b;
+  r <= a or b after 10ns;
 end structural;

@@ -1,0 +1,38 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work mux4_2 -2002  $dsn/src/andgate_fast.vhd $dsn/src/notgate_fast.vhd $dsn/src/orgate_fast.vhd $dsn/src/multiplexer1.vhd $dsn/src/mux4_2.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer4_2/mux4_2/src/andgate_fast.vhd
+# Compile Entity "andgate_fast"
+# Compile Architecture "behavioral" of Entity "andgate_fast"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer4_2/mux4_2/src/notgate_fast.vhd
+# Compile Entity "notgate_fast"
+# Compile Architecture "behavioral" of Entity "notgate_fast"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer4_2/mux4_2/src/orgate_fast.vhd
+# Compile Entity "orgate_fast"
+# Compile Architecture "structural" of Entity "orgate_fast"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer4_2/mux4_2/src/multiplexer1.vhd
+# Compile Entity "multiplexer2_1"
+# Compile Architecture "structural" of Entity "multiplexer2_1"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer4_2/mux4_2/src/mux4_2.vhd
+# Compile Entity "multiplexer4_2"
+# Compile Architecture "Structural" of Entity "multiplexer4_2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work mux4_2 -2002  $dsn/src/andgate_fast.vhd $dsn/src/notgate_fast.vhd $dsn/src/orgate_fast.vhd $dsn/src/mux4_2.vhd $dsn/src/multiplexer2_1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer4_2/mux4_2/src/andgate_fast.vhd
+# Compile Entity "andgate_fast"
+# Compile Architecture "behavioral" of Entity "andgate_fast"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer4_2/mux4_2/src/notgate_fast.vhd
+# Compile Entity "notgate_fast"
+# Compile Architecture "behavioral" of Entity "notgate_fast"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer4_2/mux4_2/src/orgate_fast.vhd
+# Compile Entity "orgate_fast"
+# Compile Architecture "structural" of Entity "orgate_fast"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer4_2/mux4_2/src/mux4_2.vhd
+# Compile Entity "multiplexer4_2"
+# Compile Architecture "Structural" of Entity "multiplexer4_2"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer4_2/mux4_2/src/multiplexer2_1.vhd
+# Compile Entity "multiplexer2_1"
+# Compile Architecture "structural" of Entity "multiplexer2_1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

@@ -1,1 +1,2 @@
 .\src\register_file.vhd
+.\src\TestBench\register_file_TB.vhd

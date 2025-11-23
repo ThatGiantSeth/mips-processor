@@ -2,4 +2,4 @@ WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line break
 MESSAGE "File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/registers/registers/src/register_file.vhd" 
 MESSAGE "Compile Entity "register_file"" 
 MESSAGE "Compile Architecture "behavioral" of Entity "register_file"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

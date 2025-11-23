@@ -29,17 +29,25 @@ UCF=
 [ORDER]
 Synchronize=0
 
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=andgate_fast|behavioral|0 
+ShowHide=ShowTopLevel
+Selected=
+
 [Files]
-/andgate.vhd=-1
-/multiplexer1.vhd=-1
-/notgate.vhd=-1
-/orgate .vhd=-1
+/andgate_fast.vhd=-1
+/multiplexer2_1.vhd=-1
+/notgate_fast.vhd=-1
+/orgate_fast.vhd=-1
 /mux4_2.vhd=-1
 
 [Files.Data]
-.\src\andgate.vhd=VHDL Source Code
-.\src\multiplexer1.vhd=VHDL Source Code
-.\src\notgate.vhd=VHDL Source Code
-.\src\orgate .vhd=VHDL Source Code
+.\src\andgate_fast.vhd=VHDL Source Code
+.\src\multiplexer2_1.vhd=VHDL Source Code
+.\src\notgate_fast.vhd=VHDL Source Code
+.\src\orgate_fast.vhd=VHDL Source Code
 .\src\mux4_2.vhd=VHDL Source Code
 

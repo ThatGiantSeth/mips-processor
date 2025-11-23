@@ -42,14 +42,15 @@ UCF=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=   
+HierarchyInformation=alu_tb|TB_ARCHITECTURE|0 
 ShowHide=ShowTopLevel
 Selected=
 
-[Groups]
-
 [ORDER]
 Synchronize=0
+
+[Groups]
+TestBench=1
 
 [Files]
 /alu.vhd=-1
@@ -74,6 +75,10 @@ Synchronize=0
 /signalsthelongwave.awc=-1
 /fullwave.asdb=-1
 /fullwave.awc=-1
+/ALUwave-noclk.asdb=-1
+/ALUwave-noclk.awc=-1
+TestBench/alu_TB.vhd=-1
+TestBench/alu_TB_runtest.do=-1
 
 [Files.Data]
 .\src\alu.vhd=VHDL Source Code
@@ -98,4 +103,8 @@ Synchronize=0
 .\src\signalsthelongwave.awc=Accelerated Waveform Configuration
 .\src\fullwave.asdb=Accelerated Waveform File
 .\src\fullwave.awc=Accelerated Waveform Configuration
+.\src\ALUwave-noclk.asdb=Accelerated Waveform File
+.\src\ALUwave-noclk.awc=Accelerated Waveform Configuration
+.\src\TestBench\alu_TB.vhd=VHDL Test Bench
+.\src\TestBench\alu_TB_runtest.do=Macro
 

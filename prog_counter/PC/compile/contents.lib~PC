@@ -1,6 +1,6 @@
-8
-~E 1 "../src/pc.vhd" 4 pc
+15
+~E 1 "../src/pc.vhd" 5 pc
 ~A 1 "../src/pc.vhd" 14 behavioral
-~E 1 "../src/TestBench/pc_TB.vhd" 6 pc_tb
-~A 1 "../src/TestBench/pc_TB.vhd" 9 TB_ARCHITECTURE
-~C 1 "../src/TestBench/pc_TB.vhd" 50 testbench_for_pc
+~E 1 "../src/TestBench/pc_TB.vhd" 7 pc_tb
+~A 1 "../src/TestBench/pc_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "../src/TestBench/pc_TB.vhd" 38 testbench_for_pc

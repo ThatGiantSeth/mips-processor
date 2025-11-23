@@ -1,1 +1,4 @@
-alu ENTITY
+subtractor16 ENTITY
+multiplexer16 ENTITY
+multiplier16 ENTITY
+Adder16 ENTITY

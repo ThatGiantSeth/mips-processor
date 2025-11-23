@@ -1,5 +1,5 @@
-.\src\andgate.vhd
-.\src\orgate.vhd
-.\src\notgate.vhd
-.\src\multiplexer1.vhd
+.\src\andgate_fast.vhd
+.\src\notgate_fast.vhd
+.\src\orgate_fast.vhd
+.\src\multiplexer2_1.vhd
 .\src\mux16_2.vhd

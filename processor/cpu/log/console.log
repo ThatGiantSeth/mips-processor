@@ -1,7 +1,418 @@
-# Design: Design cpu already active.
-# DESIGN: Default Design Language: VHDL
-# DESIGN: Default BDE Language: VHDL
-# DESIGN: C-Synthesis: Not Defined
-# DESIGN: HDL Synthesis: Not Defined
-# DESIGN: Physical Synthesis: Not Defined
-# DESIGN: Implementation: Not Defined
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work cpu -2002  $dsn/src/notgate.vhd $dsn/src/orgate_fast.vhd $dsn/src/or5gate.vhd $dsn/src/and3gate.vhd $dsn/src/orgate.vhd $dsn/src/xorgate.vhd $dsn/src/or7gate.vhd $dsn/src/andgate_fast.vhd $dsn/src/notgate_fast.vhd $dsn/src/andgate.vhd $dsn/src/halfadder.vhd $dsn/src/fulladder.vhd $dsn/src/adder16.vhd $dsn/src/subtractor16.vhd $dsn/src/multiplier16.vhd $dsn/src/multiplexer1.vhd $dsn/src/multiplexer16.vhd $dsn/src/alu.vhd $dsn/src/multiplexer2_1.vhd $dsn/src/mux4_2.vhd $dsn/src/mux16_2.vhd $dsn/src/pc.vhd $dsn/src/ram256.vhd $dsn/src/control_unit.vhd $dsn/src/register_file.vhd $dsn/src/instr_mem.vhd $dsn/src/instr_decoder.vhd $dsn/src/cpu.vhd $dsn/src/testbench/cpu_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/notgate.vhd
+# Compile Entity "notgate"
+# Compile Architecture "behavioral" of Entity "notgate"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/orgate_fast.vhd
+# Compile Entity "orgate_fast"
+# Compile Architecture "structural" of Entity "orgate_fast"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/or5gate.vhd
+# Compile Entity "or5gate"
+# Compile Architecture "structural" of Entity "or5gate"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/and3gate.vhd
+# Compile Entity "and3gate"
+# Compile Architecture "behavioral" of Entity "and3gate"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/orgate.vhd
+# Compile Entity "orgate"
+# Compile Architecture "structural" of Entity "orgate"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/xorgate.vhd
+# Compile Entity "xorgate"
+# Compile Architecture "behavioral" of Entity "xorgate"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/or7gate.vhd
+# Compile Entity "or7gate"
+# Compile Architecture "structural" of Entity "or7gate"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/andgate_fast.vhd
+# Compile Entity "andgate_fast"
+# Compile Architecture "behavioral" of Entity "andgate_fast"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/notgate_fast.vhd
+# Compile Entity "notgate_fast"
+# Compile Architecture "behavioral" of Entity "notgate_fast"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/andgate.vhd
+# Compile Entity "andgate"
+# Compile Architecture "behavioral" of Entity "andgate"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/halfadder.vhd
+# Compile Entity "halfadder"
+# Compile Architecture "structural" of Entity "halfadder"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/fulladder.vhd
+# Compile Entity "fulladder"
+# Compile Architecture "structural" of Entity "fulladder"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/adder16.vhd
+# Compile Entity "Adder16"
+# Compile Architecture "structural" of Entity "Adder16"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/subtractor16.vhd
+# Compile Entity "subtractor16"
+# Compile Architecture "structural" of Entity "subtractor16"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/multiplier16.vhd
+# Compile Entity "multiplier16"
+# Compile Architecture "behavioral" of Entity "multiplier16"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/multiplexer1.vhd
+# Compile Entity "multiplexer1"
+# Compile Architecture "structural" of Entity "multiplexer1"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/multiplexer16.vhd
+# Compile Entity "multiplexer16"
+# Compile Architecture "Structural" of Entity "multiplexer16"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "structural" of Entity "alu"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/multiplexer2_1.vhd
+# Compile Entity "multiplexer2_1"
+# Compile Architecture "structural" of Entity "multiplexer2_1"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/mux4_2.vhd
+# Compile Entity "multiplexer4_2"
+# Compile Architecture "Structural" of Entity "multiplexer4_2"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/mux16_2.vhd
+# Compile Entity "multiplexer16_2"
+# Compile Architecture "Structural" of Entity "multiplexer16_2"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/pc.vhd
+# Compile Entity "pc"
+# Compile Architecture "behavioral" of Entity "pc"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/ram256.vhd
+# Compile Entity "ram256"
+# Compile Architecture "behavioral" of Entity "ram256"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/control_unit.vhd
+# Compile Entity "control_unit"
+# Compile Architecture "structural" of Entity "control_unit"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/register_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "behavioral" of Entity "register_file"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/instr_mem.vhd
+# Compile Entity "instr_mem"
+# Compile Architecture "behavioral" of Entity "instr_mem"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/instr_decoder.vhd
+# Compile Entity "instr_decoder"
+# Compile Architecture "structural" of Entity "instr_decoder"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/cpu.vhd
+# Compile Entity "cpu"
+# Compile Architecture "structural" of Entity "cpu"
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/testbench/cpu_tb.vhd
+# Compile Entity "cpu_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "cpu_tb"
+# Compile Configuration "TESTBENCH_FOR_cpu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
+asim -O5 cpu_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6302 kB (elbread=263 elab2=5894 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\processor\cpu\src\wave.asdb
+#  8:05 PM, Saturday, November 22, 2025
+#  Simulation has been initialized
+# 24 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/wave.asdb'.
+run @1500ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/instructions,  Process: line__34.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 4,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: stopped at time: 1500 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 cpu_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work cpu -2002  $dsn/src/register_file.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/register_file.vhd
+# Compile Entity "register_file"
+# Compile Architecture "behavioral" of Entity "register_file"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6302 kB (elbread=263 elab2=5894 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\processor\cpu\src\wave.asdb
+#  8:07 PM, Saturday, November 22, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/wave.asdb'.
+# 24 object(s) traced.
+run @2500ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/instructions,  Process: line__34.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 4,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: stopped at time: 2500 ns
+acom -O3 -e 100 -work cpu -2002  $dsn/src/cpu.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/cpu.vhd
+# Compile Entity "cpu"
+# Compile Architecture "structural" of Entity "cpu"
+# Error: COMP96_0019: cpu.vhd : (92, 2): Keyword 'when' expected.
+# Error: COMP96_0015: cpu.vhd : (92, 2): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work cpu -2002  $dsn/src/cpu.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/cpu.vhd
+# Compile Entity "cpu"
+# Compile Architecture "structural" of Entity "cpu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 cpu_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6302 kB (elbread=263 elab2=5894 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\processor\cpu\src\wave.asdb
+#  8:12 PM, Saturday, November 22, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/wave.asdb'.
+# 24 object(s) traced.
+run @2500ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/instructions,  Process: line__34.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 4,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: stopped at time: 2500 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 cpu_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6302 kB (elbread=263 elab2=5894 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\processor\cpu\src\wave.asdb
+#  8:13 PM, Saturday, November 22, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/wave.asdb'.
+# 1 object(s) traced.
+# 1 object(s) traced.
+# 1 object(s) traced.
+run @16000ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/instructions,  Process: line__34.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 4,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: stopped at time: 16 us
+# 1 object(s) traced.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 cpu_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6302 kB (elbread=263 elab2=5894 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\processor\cpu\src\wave.asdb
+#  8:26 PM, Saturday, November 22, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/wave.asdb'.
+# 1 object(s) traced.
+# 1 object(s) traced.
+# 1 object(s) traced.
+run @15000ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/instructions,  Process: line__34.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 4,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: stopped at time: 15 us
+# Waveform file 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/first_success.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/first_success.asdb'.
+# Adding file C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\processor\cpu\src\first_success.asdb ... Done
+# Adding file C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\processor\cpu\src\first_success.awc ... Done
+endsim
+# VSIM: Simulation has finished.
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 cpu_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6302 kB (elbread=263 elab2=5894 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\processor\cpu\src\wave.asdb
+#  8:30 PM, Saturday, November 22, 2025
+#  Simulation has been initialized
+# 1 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/wave.asdb'.
+# 1 object(s) traced.
+# 1 object(s) traced.
+# 1 object(s) traced.
+# 1 object(s) traced.
+run @1500ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/instructions,  Process: line__34.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 4,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: stopped at time: 1500 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 cpu_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6302 kB (elbread=263 elab2=5894 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\processor\cpu\src\wave.asdb
+#  8:31 PM, Saturday, November 22, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/wave.asdb'.
+# 1 object(s) traced.
+# 1 object(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cpu_tb/UUT/current_pc' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/cpu_tb/UUT/current_instr' has already been traced.
+# 8 object(s) traced.
+# 1 object(s) traced.
+# 1 object(s) traced.
+# 1 object(s) traced.
+# 1 object(s) traced.
+run @15000ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/instructions,  Process: line__34.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 4,  Instance: /cpu_tb/UUT/registers,  Process: line__31.
+# KERNEL: stopped at time: 15 us
+# Waveform file 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/detailedwave_v1.awc' connected to 'C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/processor/cpu/src/detailedwave_v1.asdb'.
+# Adding file C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\processor\cpu\src\detailedwave_v1.asdb ... Done
+# Adding file C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\processor\cpu\src\detailedwave_v1.awc ... Done
+# Adding file C:\Users\Seth\Desktop\aldec-fall2025\mips-processor\processor\cpu\src\detailedwave_v1.awc ... Done

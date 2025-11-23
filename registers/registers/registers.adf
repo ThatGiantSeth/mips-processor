@@ -23,10 +23,16 @@ UCF=
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=register_file|behavioral|0     
+HierarchyInformation=register_file|behavioral|0 register_file_tb|TB_ARCHITECTURE|0      
 ShowHide=ShowTopLevel
 Selected=
 [Files]
 /register_file.vhd=-1
+TestBench/register_file_TB.vhd=-1
+TestBench/register_file_TB_runtest.do=-1
 [Files.Data]
 .\src\register_file.vhd=VHDL Source Code
+.\src\TestBench\register_file_TB.vhd=VHDL Test Bench
+.\src\TestBench\register_file_TB_runtest.do=Macro
+[Groups]
+TestBench=1

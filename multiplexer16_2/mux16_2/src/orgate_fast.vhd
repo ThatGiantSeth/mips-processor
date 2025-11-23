@@ -1,12 +1,12 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity orgate is
+entity orgate_fast is
   Port ( a, b : in std_logic;
          r : out std_logic );
-end orgate;
+end orgate_fast;
 
-architecture structural of orgate is
+architecture structural of orgate_fast is
 begin
   r <= a or b;
 end structural;

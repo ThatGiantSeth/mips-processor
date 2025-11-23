@@ -1,36 +1,39 @@
-V 000051 55 767           1763839703188 behavioral
-(_unit VHDL(pc 0 4(behavioral 0 14))
+I 000051 55 1008          1763847347382 behavioral
+(_unit VHDL(pc 0 5(behavioral 0 14))
 	(_version ve8)
-	(_time 1763839703189 2025.11.22 14:28:23)
+	(_time 1763847347383 2025.11.22 16:35:47)
 	(_source(\../src/pc.vhd\))
 	(_parameters tan)
-	(_code 025353040354561400001258500502040105020401)
+	(_code 1e104b1948484a081c110e444c191e181d191e181d)
 	(_ent
-		(_time 1763839703186)
+		(_time 1763847347380)
 	)
 	(_object
-		(_port(_int clk -1 0 6(_ent(_in)(_event))))
-		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~12 0 9(_array -1((_dto i 9 i 0)))))
-		(_port(_int pc_in 0 0 9(_ent(_in))))
+		(_port(_int clk -1 0 7(_ent(_in)(_event))))
+		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~12 0 10(_array -1((_dto i 9 i 0)))))
 		(_port(_int pc_out 0 0 10(_ent(_out))))
+		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~13 0 15(_array -1((_dto i 9 i 0)))))
+		(_sig(_int current_pc 1 0 15(_arch(_uni))))
 		(_prcs
-			(line__16(_arch 0 0 16(_prcs(_trgt(2))(_sens(0)(1))(_dssslsensitivity 1))))
+			(line__18(_arch 0 0 18(_prcs(_simple)(_trgt(2))(_sens(0))(_read(2)))))
 		)
 		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
 		(_type(_ext ~extieee.std_logic_1164.STD_ULOGIC(0 STD_ULOGIC)))
+		(_type(_ext ~extieee.NUMERIC_STD.UNSIGNED(1 UNSIGNED)))
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC_VECTOR(0 STD_LOGIC_VECTOR)))
 	)
-	(_use(ieee(std_logic_1164))(std(standard)))
+	(_use(ieee(std_logic_1164))(ieee(NUMERIC_STD))(std(standard)))
 	(_model . behavioral 1 -1)
 )
-I 000056 55 1165          1763839886373 TB_ARCHITECTURE
+I 000056 55 1270          1763847347445 TB_ARCHITECTURE
 (_unit VHDL(pc_tb 0 6(tb_architecture 0 9))
 	(_version ve8)
-	(_time 1763839886374 2025.11.22 14:31:26)
+	(_time 1763847347446 2025.11.22 16:35:47)
 	(_source(\../src/TestBench/pc_TB.vhd\))
 	(_parameters tan)
-	(_code 96c2939993c2948190c484cdc7909593c091929094)
+	(_code 5c52095f0c085e4b5a0c4e070d5a5f590a5b585a5e)
 	(_ent
-		(_time 1763839886358)
+		(_time 1763847347429)
 	)
 	(_comp
 		(pc
@@ -47,373 +50,12 @@ I 000056 55 1165          1763839886373 TB_ARCHITECTURE
 			((pc_in)(pc_in))
 			((pc_out)(pc_out))
 		)
-		(_use(_ent . pc)
-		)
-	)
-	(_object
-		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~13 0 14(_array -1((_dto i 9 i 0)))))
-		(_sig(_int clk -1 0 19(_arch(_uni))))
-		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~132 0 20(_array -1((_dto i 9 i 0)))))
-		(_sig(_int pc_in 1 0 20(_arch(_uni))))
-		(_sig(_int pc_out 1 0 22(_arch(_uni))))
-		(_prcs
-			(line__37(_arch 0 0 37(_prcs(_wait_for)(_trgt(1)(2)))))
-		)
-		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
-	)
-	(_use(ieee(std_logic_1164))(std(standard)))
-	(_static
-		(33686018 50463234 514)
-		(33686018 33751554 514)
-	)
-	(_model . TB_ARCHITECTURE 1 -1)
-)
-I 000035 55 359 0 testbench_for_pc
-(_configuration VHDL (testbench_for_pc 0 48 (pc_tb))
-	(_version ve8)
-	(_time 1763839886403 2025.11.22 14:31:26)
-	(_source(\../src/TestBench/pc_TB.vhd\))
-	(_parameters tan)
-	(_code a5f1a4f2a5f3f2b2a1a4b7fff1a3f0a3a6a3ada0f3)
-	(_arch TB_ARCHITECTURE
-		(_inst UUT
-			(_ent . pc behavioral
+		(_use(_implicit)
+			(_port
+				((clk)(clk))
+				((pc_in)(pc_in))
+				((pc_out)(pc_out))
 			)
-		)
-	)
-	(_use(std(standard))(ieee(std_logic_1164)))
-)
-I 000056 55 1162          1763839948536 TB_ARCHITECTURE
-(_unit VHDL(pc_tb 0 6(tb_architecture 0 9))
-	(_version ve8)
-	(_time 1763839948537 2025.11.22 14:32:28)
-	(_source(\../src/TestBench/pc_TB.vhd\))
-	(_parameters tan)
-	(_code 62376a626336607564307039336461673465666460)
-	(_ent
-		(_time 1763839886357)
-	)
-	(_comp
-		(pc
-			(_object
-				(_port(_int clk -1 0 13(_ent (_in))))
-				(_port(_int pc_in 0 0 14(_ent (_in))))
-				(_port(_int pc_out 0 0 15(_ent (_out))))
-			)
-		)
-	)
-	(_inst UUT 0 29(_comp pc)
-		(_port
-			((clk)(clk))
-			((pc_in)(pc_in))
-			((pc_out)(pc_out))
-		)
-		(_use(_ent . pc)
-		)
-	)
-	(_object
-		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~13 0 14(_array -1((_dto i 9 i 0)))))
-		(_sig(_int clk -1 0 19(_arch(_uni))))
-		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~132 0 20(_array -1((_dto i 9 i 0)))))
-		(_sig(_int pc_in 1 0 20(_arch(_uni))))
-		(_sig(_int pc_out 1 0 22(_arch(_uni))))
-		(_prcs
-			(line__37(_arch 0 0 37(_prcs(_wait_for)(_trgt(1)))))
-		)
-		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
-	)
-	(_use(ieee(std_logic_1164))(std(standard)))
-	(_static
-		(33686018 50463234 514)
-		(33686018 33751554 514)
-	)
-	(_model . TB_ARCHITECTURE 1 -1)
-)
-I 000035 55 359 0 testbench_for_pc
-(_configuration VHDL (testbench_for_pc 0 48 (pc_tb))
-	(_version ve8)
-	(_time 1763839948562 2025.11.22 14:32:28)
-	(_source(\../src/TestBench/pc_TB.vhd\))
-	(_parameters tan)
-	(_code 81d48d8f85d7d696858093dbd587d48782878984d7)
-	(_arch TB_ARCHITECTURE
-		(_inst UUT
-			(_ent . pc behavioral
-			)
-		)
-	)
-	(_use(std(standard))(ieee(std_logic_1164)))
-)
-I 000056 55 1162          1763840013413 TB_ARCHITECTURE
-(_unit VHDL(pc_tb 0 6(tb_architecture 0 9))
-	(_version ve8)
-	(_time 1763840013414 2025.11.22 14:33:33)
-	(_source(\../src/TestBench/pc_TB.vhd\))
-	(_parameters tan)
-	(_code cd98c8989a99cfdacb9fdf969ccbcec89bcac9cbcf)
-	(_ent
-		(_time 1763839886357)
-	)
-	(_comp
-		(pc
-			(_object
-				(_port(_int clk -1 0 13(_ent (_in))))
-				(_port(_int pc_in 0 0 14(_ent (_in))))
-				(_port(_int pc_out 0 0 15(_ent (_out))))
-			)
-		)
-	)
-	(_inst UUT 0 29(_comp pc)
-		(_port
-			((clk)(clk))
-			((pc_in)(pc_in))
-			((pc_out)(pc_out))
-		)
-		(_use(_ent . pc)
-		)
-	)
-	(_object
-		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~13 0 14(_array -1((_dto i 9 i 0)))))
-		(_sig(_int clk -1 0 19(_arch(_uni))))
-		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~132 0 20(_array -1((_dto i 9 i 0)))))
-		(_sig(_int pc_in 1 0 20(_arch(_uni))))
-		(_sig(_int pc_out 1 0 22(_arch(_uni))))
-		(_prcs
-			(line__37(_arch 0 0 37(_prcs(_wait_for)(_trgt(1)))))
-		)
-		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
-	)
-	(_use(ieee(std_logic_1164))(std(standard)))
-	(_static
-		(33686018 50463234 514)
-		(33686018 33751554 514)
-	)
-	(_model . TB_ARCHITECTURE 1 -1)
-)
-I 000035 55 359 0 testbench_for_pc
-(_configuration VHDL (testbench_for_pc 0 48 (pc_tb))
-	(_version ve8)
-	(_time 1763840013437 2025.11.22 14:33:33)
-	(_source(\../src/TestBench/pc_TB.vhd\))
-	(_parameters tan)
-	(_code ecb9edbfbababbfbe8edfeb6b8eab9eaefeae4e9ba)
-	(_arch TB_ARCHITECTURE
-		(_inst UUT
-			(_ent . pc behavioral
-			)
-		)
-	)
-	(_use(std(standard))(ieee(std_logic_1164)))
-)
-I 000056 55 1162          1763840108708 TB_ARCHITECTURE
-(_unit VHDL(pc_tb 0 6(tb_architecture 0 9))
-	(_version ve8)
-	(_time 1763840108709 2025.11.22 14:35:08)
-	(_source(\../src/TestBench/pc_TB.vhd\))
-	(_parameters tan)
-	(_code 0e0b5f08585a0c19085c1c555f080d0b58090a080c)
-	(_ent
-		(_time 1763839886357)
-	)
-	(_comp
-		(pc
-			(_object
-				(_port(_int clk -1 0 13(_ent (_in))))
-				(_port(_int pc_in 0 0 14(_ent (_in))))
-				(_port(_int pc_out 0 0 15(_ent (_out))))
-			)
-		)
-	)
-	(_inst UUT 0 29(_comp pc)
-		(_port
-			((clk)(clk))
-			((pc_in)(pc_in))
-			((pc_out)(pc_out))
-		)
-		(_use(_ent . pc)
-		)
-	)
-	(_object
-		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~13 0 14(_array -1((_dto i 9 i 0)))))
-		(_sig(_int clk -1 0 19(_arch(_uni))))
-		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~132 0 20(_array -1((_dto i 9 i 0)))))
-		(_sig(_int pc_in 1 0 20(_arch(_uni))))
-		(_sig(_int pc_out 1 0 22(_arch(_uni))))
-		(_prcs
-			(line__37(_arch 0 0 37(_prcs(_wait_for)(_trgt(1)))))
-		)
-		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
-	)
-	(_use(ieee(std_logic_1164))(std(standard)))
-	(_static
-		(33686018 50463234 514)
-		(33686018 33751554 514)
-	)
-	(_model . TB_ARCHITECTURE 1 -1)
-)
-I 000035 55 359 0 testbench_for_pc
-(_configuration VHDL (testbench_for_pc 0 48 (pc_tb))
-	(_version ve8)
-	(_time 1763840108733 2025.11.22 14:35:08)
-	(_source(\../src/TestBench/pc_TB.vhd\))
-	(_parameters tan)
-	(_code 2d2878297c7b7a3a292c3f77792b782b2e2b25287b)
-	(_arch TB_ARCHITECTURE
-		(_inst UUT
-			(_ent . pc behavioral
-			)
-		)
-	)
-	(_use(std(standard))(ieee(std_logic_1164)))
-)
-I 000056 55 1162          1763840149165 TB_ARCHITECTURE
-(_unit VHDL(pc_tb 0 6(tb_architecture 0 9))
-	(_version ve8)
-	(_time 1763840149166 2025.11.22 14:35:49)
-	(_source(\../src/TestBench/pc_TB.vhd\))
-	(_parameters tan)
-	(_code 13471b141347110415410148421510164514171511)
-	(_ent
-		(_time 1763839886357)
-	)
-	(_comp
-		(pc
-			(_object
-				(_port(_int clk -1 0 13(_ent (_in))))
-				(_port(_int pc_in 0 0 14(_ent (_in))))
-				(_port(_int pc_out 0 0 15(_ent (_out))))
-			)
-		)
-	)
-	(_inst UUT 0 29(_comp pc)
-		(_port
-			((clk)(clk))
-			((pc_in)(pc_in))
-			((pc_out)(pc_out))
-		)
-		(_use(_ent . pc)
-		)
-	)
-	(_object
-		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~13 0 14(_array -1((_dto i 9 i 0)))))
-		(_sig(_int clk -1 0 19(_arch(_uni))))
-		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~132 0 20(_array -1((_dto i 9 i 0)))))
-		(_sig(_int pc_in 1 0 20(_arch(_uni))))
-		(_sig(_int pc_out 1 0 22(_arch(_uni))))
-		(_prcs
-			(line__37(_arch 0 0 37(_prcs(_wait_for)(_trgt(1)))))
-		)
-		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
-	)
-	(_use(ieee(std_logic_1164))(std(standard)))
-	(_static
-		(33686018 50463234 514)
-		(33686018 33751554 514)
-	)
-	(_model . TB_ARCHITECTURE 1 -1)
-)
-I 000035 55 359 0 testbench_for_pc
-(_configuration VHDL (testbench_for_pc 0 48 (pc_tb))
-	(_version ve8)
-	(_time 1763840149187 2025.11.22 14:35:49)
-	(_source(\../src/TestBench/pc_TB.vhd\))
-	(_parameters tan)
-	(_code 32663e3735646525363320686634673431343a3764)
-	(_arch TB_ARCHITECTURE
-		(_inst UUT
-			(_ent . pc behavioral
-			)
-		)
-	)
-	(_use(std(standard))(ieee(std_logic_1164)))
-)
-I 000056 55 1162          1763840205987 TB_ARCHITECTURE
-(_unit VHDL(pc_tb 0 6(tb_architecture 0 9))
-	(_version ve8)
-	(_time 1763840205988 2025.11.22 14:36:45)
-	(_source(\../src/TestBench/pc_TB.vhd\))
-	(_parameters tan)
-	(_code 0f5909095a5b0d18095d1d545e090c0a59080b090d)
-	(_ent
-		(_time 1763839886357)
-	)
-	(_comp
-		(pc
-			(_object
-				(_port(_int clk -1 0 13(_ent (_in))))
-				(_port(_int pc_in 0 0 14(_ent (_in))))
-				(_port(_int pc_out 0 0 15(_ent (_out))))
-			)
-		)
-	)
-	(_inst UUT 0 29(_comp pc)
-		(_port
-			((clk)(clk))
-			((pc_in)(pc_in))
-			((pc_out)(pc_out))
-		)
-		(_use(_ent . pc)
-		)
-	)
-	(_object
-		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~13 0 14(_array -1((_dto i 9 i 0)))))
-		(_sig(_int clk -1 0 19(_arch(_uni))))
-		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~132 0 20(_array -1((_dto i 9 i 0)))))
-		(_sig(_int pc_in 1 0 20(_arch(_uni))))
-		(_sig(_int pc_out 1 0 22(_arch(_uni))))
-		(_prcs
-			(line__37(_arch 0 0 37(_prcs(_wait_for)(_trgt(1)))))
-		)
-		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
-	)
-	(_use(ieee(std_logic_1164))(std(standard)))
-	(_static
-		(33686018 50463234 514)
-		(33686018 33751554 514)
-	)
-	(_model . TB_ARCHITECTURE 1 -1)
-)
-I 000035 55 359 0 testbench_for_pc
-(_configuration VHDL (testbench_for_pc 0 48 (pc_tb))
-	(_version ve8)
-	(_time 1763840206012 2025.11.22 14:36:46)
-	(_source(\../src/TestBench/pc_TB.vhd\))
-	(_parameters tan)
-	(_code 1f491d184c4948081b1e0d454b194a191c19171a49)
-	(_arch TB_ARCHITECTURE
-		(_inst UUT
-			(_ent . pc behavioral
-			)
-		)
-	)
-	(_use(std(standard))(ieee(std_logic_1164)))
-)
-V 000056 55 1189          1763840250729 TB_ARCHITECTURE
-(_unit VHDL(pc_tb 0 6(tb_architecture 0 9))
-	(_version ve8)
-	(_time 1763840250730 2025.11.22 14:37:30)
-	(_source(\../src/TestBench/pc_TB.vhd\))
-	(_parameters tan)
-	(_code cdcfc9989a99cfdacb9ddf969ccbcec89bcac9cbcf)
-	(_ent
-		(_time 1763839886357)
-	)
-	(_comp
-		(pc
-			(_object
-				(_port(_int clk -1 0 13(_ent (_in))))
-				(_port(_int pc_in 0 0 14(_ent (_in))))
-				(_port(_int pc_out 0 0 15(_ent (_out))))
-			)
-		)
-	)
-	(_inst UUT 0 29(_comp pc)
-		(_port
-			((clk)(clk))
-			((pc_in)(pc_in))
-			((pc_out)(pc_out))
-		)
-		(_use(_ent . pc)
 		)
 	)
 	(_object
@@ -435,18 +77,160 @@ V 000056 55 1189          1763840250729 TB_ARCHITECTURE
 	)
 	(_model . TB_ARCHITECTURE 1 -1)
 )
-V 000035 55 359 0 testbench_for_pc
-(_configuration VHDL (testbench_for_pc 0 50 (pc_tb))
+I 000056 55 1270          1763847347614 TB_ARCHITECTURE
+(_unit VHDL(pc_tb 0 6(tb_architecture 0 9))
 	(_version ve8)
-	(_time 1763840250755 2025.11.22 14:37:30)
+	(_time 1763847347615 2025.11.22 16:35:47)
 	(_source(\../src/TestBench/pc_TB.vhd\))
 	(_parameters tan)
-	(_code edefedbebcbbbafae9ecffb7b9ebb8ebeeebe5e8bb)
+	(_code 08065e0e035c0a1f0e581a53590e0b0d5e0f0c0e0a)
+	(_ent
+		(_time 1763847347428)
+	)
+	(_comp
+		(pc
+			(_object
+				(_port(_int clk -1 0 13(_ent (_in))))
+				(_port(_int pc_in 0 0 14(_ent (_in))))
+				(_port(_int pc_out 0 0 15(_ent (_out))))
+			)
+		)
+	)
+	(_inst UUT 0 29(_comp pc)
+		(_port
+			((clk)(clk))
+			((pc_in)(pc_in))
+			((pc_out)(pc_out))
+		)
+		(_use(_implicit)
+			(_port
+				((clk)(clk))
+				((pc_in)(pc_in))
+				((pc_out)(pc_out))
+			)
+		)
+	)
+	(_object
+		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~13 0 14(_array -1((_dto i 9 i 0)))))
+		(_sig(_int clk -1 0 19(_arch(_uni))))
+		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~132 0 20(_array -1((_dto i 9 i 0)))))
+		(_sig(_int pc_in 1 0 20(_arch(_uni))))
+		(_sig(_int pc_out 1 0 22(_arch(_uni))))
+		(_prcs
+			(line__37(_arch 0 0 37(_prcs(_wait_for)(_trgt(1)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_static
+		(33686018 50463234 514)
+		(33686018 33751554 514)
+		(33686018 33686274 514)
+	)
+	(_model . TB_ARCHITECTURE 1 -1)
+)
+V 000056 55 900           1763847401996 TB_ARCHITECTURE
+(_unit VHDL(pc_tb 0 7(tb_architecture 0 10))
+	(_version ve8)
+	(_time 1763847401997 2025.11.22 16:36:41)
+	(_source(\../src/TestBench/pc_TB.vhd\))
+	(_parameters tan)
+	(_code 6f6f6c6f3a3b6d78696a7d343e696c6a39686b696d)
+	(_ent
+		(_time 1763847401994)
+	)
+	(_comp
+		(pc
+			(_object
+				(_port(_int clk -1 0 14(_ent (_in))))
+				(_port(_int pc_out 0 0 15(_ent (_out))))
+			)
+		)
+	)
+	(_inst UUT 0 28(_comp pc)
+		(_port
+			((clk)(clk))
+			((pc_out)(pc_out))
+		)
+		(_use(_ent . pc)
+		)
+	)
+	(_object
+		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~13 0 15(_array -1((_dto i 9 i 0)))))
+		(_sig(_int clk -1 0 19(_arch(_uni))))
+		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~132 0 21(_array -1((_dto i 9 i 0)))))
+		(_sig(_int pc_out 1 0 21(_arch(_uni))))
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
+)
+V 000035 55 378 0 testbench_for_pc
+(_configuration VHDL (testbench_for_pc 0 38 (pc_tb))
+	(_version ve8)
+	(_time 1763847402001 2025.11.22 16:36:41)
+	(_source(\../src/TestBench/pc_TB.vhd\))
+	(_parameters tan)
+	(_code 7f7f787e2c2928687b7e6d252b792a797c79777a29)
 	(_arch TB_ARCHITECTURE
 		(_inst UUT
 			(_ent . pc behavioral
 			)
 		)
 	)
-	(_use(std(standard))(ieee(std_logic_1164)))
+	(_use(std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+)
+I 000051 55 1024          1763847460623 behavioral
+(_unit VHDL(pc 0 5(behavioral 0 14))
+	(_version ve8)
+	(_time 1763847460624 2025.11.22 16:37:40)
+	(_source(\../src/pc.vhd\))
+	(_parameters tan)
+	(_code 8082888e83d6d496828f90dad28780868387808683)
+	(_ent
+		(_time 1763847347379)
+	)
+	(_object
+		(_port(_int clk -1 0 7(_ent(_in)(_event))))
+		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~12 0 10(_array -1((_dto i 9 i 0)))))
+		(_port(_int pc_out 0 0 10(_ent(_out))))
+		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~13 0 15(_array -1((_dto i 9 i 0)))))
+		(_sig(_int current_pc 1 0 15(_arch(_uni((_others(i 2)))))))
+		(_prcs
+			(line__18(_arch 0 0 18(_prcs(_simple)(_trgt(2))(_sens(0))(_read(2)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+		(_type(_ext ~extieee.std_logic_1164.STD_ULOGIC(0 STD_ULOGIC)))
+		(_type(_ext ~extieee.NUMERIC_STD.UNSIGNED(1 UNSIGNED)))
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC_VECTOR(0 STD_LOGIC_VECTOR)))
+	)
+	(_use(ieee(std_logic_1164))(ieee(NUMERIC_STD))(std(standard)))
+	(_model . behavioral 1 -1)
+)
+V 000051 55 1116          1763847554158 behavioral
+(_unit VHDL(pc 0 5(behavioral 0 14))
+	(_version ve8)
+	(_time 1763847554159 2025.11.22 16:39:14)
+	(_source(\../src/pc.vhd\))
+	(_parameters tan)
+	(_code db8fde898a8d8fcdd9d5cb8189dcdbddd8dcdbddd8)
+	(_ent
+		(_time 1763847347379)
+	)
+	(_object
+		(_port(_int clk -1 0 7(_ent(_in)(_event))))
+		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~12 0 10(_array -1((_dto i 9 i 0)))))
+		(_port(_int pc_out 0 0 10(_ent(_out))))
+		(_type(_int ~STD_LOGIC_VECTOR{9~downto~0}~13 0 15(_array -1((_dto i 9 i 0)))))
+		(_sig(_int current_pc 1 0 15(_arch(_uni((_others(i 2)))))))
+		(_prcs
+			(line__18(_arch 0 0 18(_prcs(_simple)(_trgt(2))(_sens(0))(_read(2)))))
+			(line__25(_arch 1 0 25(_assignment(_alias((pc_out)(current_pc)))(_trgt(1))(_sens(2)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+		(_type(_ext ~extieee.std_logic_1164.STD_ULOGIC(0 STD_ULOGIC)))
+		(_type(_ext ~extieee.NUMERIC_STD.UNSIGNED(1 UNSIGNED)))
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC_VECTOR(0 STD_LOGIC_VECTOR)))
+	)
+	(_use(ieee(std_logic_1164))(ieee(NUMERIC_STD))(std(standard)))
+	(_model . behavioral 2 -1)
 )

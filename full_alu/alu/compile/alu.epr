@@ -1,15 +1,2 @@
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/or5gate.vhd" VHDL alu 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/notgate.vhd" VHDL alu 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/and3gate.vhd" VHDL alu 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/andgate.vhd" VHDL alu 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/xorgate.vhd" VHDL alu 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/orgate.vhd" VHDL alu 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/halfadder.vhd" VHDL alu 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/fulladder.vhd" VHDL alu 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/adder16.vhd" VHDL alu 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/subtractor16.vhd" VHDL alu 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/multiplier16.vhd" VHDL alu 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/multiplexer1.vhd" VHDL alu 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/multiplexer16.vhd" VHDL alu 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/full_alu/alu/src/alu.vhd" VHDL alu 1 0 0 -02
+"C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/full_alu/alu/src/TestBench/alu_TB.vhd" VHDL alu 1 0 0 -02
 . . 0 0 0

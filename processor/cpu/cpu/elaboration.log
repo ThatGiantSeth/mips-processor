@@ -1,0 +1,61 @@
+Active-HDL 12.0.118.7745 2025-11-22 20:31:53
+
+Elaboration top modules:
+Architecture                  TB_ARCHITECTURE(cpu_tb)
+
+
+---------------------------------------------------------------------------------------------------
+Entity          | Architecture    | Library | Info | Compiler Version        | Compilation Options
+---------------------------------------------------------------------------------------------------
+cpu_tb          | TB_ARCHITECTURE | cpu     |      | 12.0.118.7745 (Windows) | -O3
+cpu             | structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+pc              | behavioral      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+instr_mem       | behavioral      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+instr_decoder   | structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+multiplexer4_2  | Structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+register_file   | behavioral      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+multiplexer16_2 | Structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+alu             | structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+ram256          | behavioral      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+control_unit    | structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+notgate         | behavioral      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+and3gate        | behavioral      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+multiplexer2_1  | structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+notgate_fast    | behavioral      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+andgate_fast    | behavioral      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+orgate_fast     | structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+Adder16         | structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+subtractor16    | structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+multiplier16    | behavioral      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+multiplexer16   | Structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+fulladder       | structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+halfadder       | structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+orgate          | structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+xorgate         | behavioral      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+andgate         | behavioral      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+multiplexer1    | structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+or5gate         | structural      | cpu     |      | 12.0.118.7745 (Windows) | -O3
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+VHDL Package                      | Library | Info | Compiler Version        | Compilation Options
+---------------------------------------------------------------------------------------------------
+standard                          | std     |      |                         | <unavailable>
+TEXTIO                            | std     |      |                         | <unavailable>
+std_logic_1164                    | ieee    |      |                         | <unavailable>
+NUMERIC_STD                       | ieee    |      |                         | <unavailable>
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+Library                           | Comment
+---------------------------------------------------------------------------------------------------
+cpu                               | None
+ieee                              | Standard IEEE packages library
+std                               | Standard VHDL library
+---------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 cpu_tb TB_ARCHITECTURE
+
+
+The performance of simulation is reduced. Version EDU Edition

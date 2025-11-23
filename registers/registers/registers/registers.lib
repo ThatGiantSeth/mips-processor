@@ -1,24 +1,45 @@
-timestamp=1763837771199
+timestamp=1763859896843
 
 [~A]
-ModifyID=7
+ModifyID=14
 Version=74
 
 [~MFT]
-0=16|0registers.mgf|7992|6083
-1=2|1registers.mgf|5392|5392
-3=2|3registers.mgf|0|0
+0=8|0registers.mgf|15852|10961
+1=2|1registers.mgf|16935|14267
+3=2|3registers.mgf|1007|604
 
 [register_file]
-A/behavioral=21|../src/register_file.vhd|18|1*5392
-BinI32/behavioral=3*0
+A/behavioral=21|../src/register_file.vhd|18|1*16935
+BinI32/behavioral=3*1007
 I=0*6940
-I/behavioral=0*7992
+I/behavioral=0*15852
 M=11|0|ve8|1763837771129|../src/register_file.vhd|0*6331*0x7ed687613b892f6bb370d086f20046ece730aee2|0*6849*0x23b75c12e3e89f2ef000564498faa8c2
-M/behavioral=21|0|ve8|1763837771131|../src/register_file.vhd|0*7184*0xaccfcd7f1010c958ffc3e9fba469ceea9e6588be|0*7887*0x20116f55b147878295aeff36dce7fc50
+M/behavioral=21|0|ve8|1763859896798|../src/register_file.vhd|0*15161*0xf348046300e5735cffbb49f376fcb38481487eaa|0*15747*0x20116f55b147878295aeff36dce7fc50
 R=../src/register_file.vhd|5
 Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|a396fecd832e4041f15ae1be4d0acbff9590461053dd9c77b27bc3f69d93ce394f5490df4441df0196f7c7cec9e4714f
-Version/behavioral=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4c3a4e595c091a5dd8d4cb69e83c09a5e
+Version/behavioral=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff448100c917748769a739fb4c54d06b06a
+
+[register_file_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/register_file_TB.vhd|10|1*9267
+BinI32/tb_architecture=3*604
+I=0*9701
+I/tb_architecture=I/TB_ARCHITECTURE 0*11371
+M=11|0|ve8|1763858990665|../src/TestBench/register_file_TB.vhd|0*9361*0xda612957407325af8e4946bf3fc4a3f949933fde|0*9594*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|ve8|1763859013632|../src/TestBench/register_file_TB.vhd|0*9948*0x39eb0d94959605b05d453ccd4d08c36452ecfd66|0*11245*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/register_file_TB.vhd|7
+Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|a396fecd832e4041f15ae1be4d0acbffe1b32a18a8dc593eff6eff41bd424778fc0a3ee31819842c7e356026e6b0eaa6
+Version/tb_architecture=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea2ff22976b031a3076e40e40773f82086
+
+[testbench_for_register_file]
+Configures=register_file_tb.TB_ARCHITECTURE
+E=1*11467
+I=0*12146
+M=2|0|ve8|1763859013646|../src/TestBench/register_file_TB.vhd|0*11675*0x21a36fd29d68ae843ba48810ffed69513832ed70|0*12009*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/register_file_TB.vhd|70
+Version=12.0.118.7745 (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5f0a6ba115d3f100c8b37d02631a2b712ba7ce52835a93909fa8dd39d13a74f31e36db3551f555472269af50e1ad3ca4e
 
 [~U]
 register_file=11|0*6083|
+register_file_tb=11|0*9223|
+testbench_for_register_file=TESTBENCH_FOR_register_file 2||

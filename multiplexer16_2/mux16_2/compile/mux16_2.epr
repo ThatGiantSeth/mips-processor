@@ -1,6 +1,6 @@
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/andgate.vhd" VHDL mux16_2 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/orgate.vhd" VHDL mux16_2 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/notgate.vhd" VHDL mux16_2 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/multiplexer1.vhd" VHDL mux16_2 1 0 0 -02
-"C:/Users/aubre/MIPS_Processor_Project/mips-processor/multiplexer16_2/mux16_2/src/mux16_2.vhd" VHDL mux16_2 1 0 0 -02
+"C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer16_2/mux16_2/src/andgate_fast.vhd" VHDL mux16_2 1 0 0 -02
+"C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer16_2/mux16_2/src/notgate_fast.vhd" VHDL mux16_2 1 0 0 -02
+"C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer16_2/mux16_2/src/orgate_fast.vhd" VHDL mux16_2 1 0 0 -02
+"C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer16_2/mux16_2/src/multiplexer2_1.vhd" VHDL mux16_2 1 0 0 -02
+"C:/Users/Seth/Desktop/aldec-fall2025/mips-processor/multiplexer16_2/mux16_2/src/mux16_2.vhd" VHDL mux16_2 1 0 0 -02
 . . 0 0 0

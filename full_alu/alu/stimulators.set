@@ -4,15 +4,11 @@
 		<set name="ASDB Stimulators" active="1">
 			<stimulator>
 				<signal_path value="/alu_tb/A"/>
-				<rawdescription value="VAL:FRM:Override:0000000010000000:&lt;= 0000000010000000:1:"/>
+				<rawdescription value="VAL:FRM:Override:0000000000001000:&lt;= 0000000000001000:1:"/>
 			</stimulator>
 			<stimulator>
 				<signal_path value="/alu_tb/B"/>
-				<rawdescription value="VAL:FRM:Override:0000000010000000:&lt;= 0000000010000000:1:"/>
-			</stimulator>
-			<stimulator>
-				<signal_path value="/alu_tb/Clk"/>
-				<rawdescription value="CLK:FRM:Override:800.000000;2;1;0;50;1:Clock:1:"/>
+				<rawdescription value="VAL:FRM:Override:0000000000010000:&lt;= 0000000000010000:1:"/>
 			</stimulator>
 			<stimulator>
 				<signal_path value="/alu_tb/S0"/>
@@ -20,11 +16,11 @@
 			</stimulator>
 			<stimulator>
 				<signal_path value="/alu_tb/S1"/>
-				<rawdescription value="VAL:FRM:Override:1:&lt;= 1:1:"/>
+				<rawdescription value="VAL:FRM:Override:0:&lt;= 0:1:"/>
 			</stimulator>
 			<stimulator>
 				<signal_path value="/alu_tb/S2"/>
-				<rawdescription value="VAL:FRM:Override:0:&lt;= 0:1:"/>
+				<rawdescription value="VAL:FRM:Override:1:&lt;= 1:1:"/>
 			</stimulator>
 		</set>
 	</document>
